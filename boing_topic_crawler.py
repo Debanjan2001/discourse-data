@@ -1,7 +1,9 @@
 import json
+import time
 from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.action_chains import ActionChains
 
 
 def topic_crawler(url: str = None, driver: WebDriver = None, max_posts = 5):
@@ -9,34 +11,17 @@ def topic_crawler(url: str = None, driver: WebDriver = None, max_posts = 5):
     try:
         driver.get(url)
 
-        try:
-            driver.find_element_by_class_name(
-                "widget-button.btn.btn.no-text.btn-icon"
-            ).click()
-        except:
-            pass
-
         topic_name = driver.find_element_by_tag_name("h1").text
         topic_info = driver.find_element_by_class_name("topic-map")
         metrics = topic_info.find_elements_by_tag_name("span")
-        
-       
 
-        try:
-            popular_links_attached = topic_info.find_element_by_class_name("topic-links")
-            popular_links_attached_urls = [
-            link.get_attribute("href") for link in
-                popular_links_attached.find_elements_by_tag_name("a")
-            ]
-        except Exception as e:
-            popular_links_attached_urls = []
-            
         print(f"STARTED --- TOPIC: {topic_name}")
 
         topic_data = {
             "topic_title": topic_name,
             "topic_id": url.split("/")[-1],
             "topic_url": url,
+            "topic_author":"",
             "created_timestamp": metrics[0].get_attribute("title"),
             "replies": metrics[2].text,
             "views": metrics[3].text,
@@ -44,15 +29,28 @@ def topic_crawler(url: str = None, driver: WebDriver = None, max_posts = 5):
             "likes": metrics[5].text,
         }
 
+        try:    
+            webElement = driver.find_element_by_class_name(
+                "map"
+            ).find_element_by_tag_name("button")
+            action = ActionChains(driver)
+            action.click(on_element=webElement);
+            action.perform()
+            time.sleep(1)
+        except Exception as e:
+            print(e)
+        
         try:
-            topic_data["total_links_attached"] =  metrics[6].text,
-        except:
-            topic_data["total_links_attached"] = "0"
+            popular_links_attached = driver.find_element_by_class_name("topic-links")
+            popular_links_attached_urls = [
+            link.get_attribute("href") for link in
+                popular_links_attached.find_elements_by_tag_name("a")
+            ]
+            topic_data["popular_links_attached"] = popular_links_attached_urls
 
-        try:
-            topic_data["popular_links"] = popular_links_attached_urls
-        except:
-            topic_data["popular_links"] = []
+        except Exception as e:
+            # print(e)
+            topic_data["popular_links_attached"] = []
 
         """
             Crawl Top 5 posts in this topic
@@ -102,6 +100,7 @@ def topic_crawler(url: str = None, driver: WebDriver = None, max_posts = 5):
 
         topic_data["topic_author"] = posts_data[0]["post_author"]
 
+
         data = {
             "topic_details": topic_data,
             "posts": posts_data,
@@ -113,13 +112,15 @@ def topic_crawler(url: str = None, driver: WebDriver = None, max_posts = 5):
 
     except Exception as e:
         print(e)
+        raise Exception("Unable to Parse Topic")
+
 
 
 if __name__ == "__main__":
 
-    baseurl = "https://bbs.boingboing.net/t/good-encouraging-stuff/158198"
+    baseurl = "https://bbs.boingboing.net/t/forty-year-old-slice-of-charles-and-dianas-wedding-cake-sells-for-2500/203123"
 
-    debug = False
+    debug = True
 
     if debug:
         driver = webdriver.Chrome()
@@ -129,7 +130,7 @@ if __name__ == "__main__":
         options.headless = True
         driver = webdriver.Chrome(options=options)
 
-    data = topic_crawler(baseurl, driver)
+    data = topic_crawler(url = baseurl,driver = driver, max_posts = 3)
 
     with open("topic.json", "w") as file:
         json_obj = json.dumps(data, indent=4)

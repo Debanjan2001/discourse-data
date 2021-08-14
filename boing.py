@@ -80,7 +80,6 @@ try:
 
         for cnt, topic in enumerate(topics, 1):
 
-
             topic_url = topic.get_attribute("href")
             # print(topic_url)
 
@@ -93,8 +92,8 @@ try:
                 topics_data.append(topic_data)
             except Exception as e:
                 print(e)
-                continue
-
+                pass
+                
             # Closing new_url tab
             driver.close()
 
