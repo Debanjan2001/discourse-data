@@ -7,20 +7,21 @@ debug = False
 
 if debug:
     driver = webdriver.Chrome()
-    driver.maximize_window()
 else:
     options = Options()
     options.headless = True
     driver = webdriver.Chrome(options=options)
 
+driver.maximize_window()
+
 data = []
 
 
 baseurl = "https://bbs.boingboing.net"
-max_topics = 1
-max_posts = 10
+max_topics = 10
+max_posts = 2
 mywish = [
-    "general",
+    "general","boing"
 ]
 
 from boing_topic_crawler import topic_crawler

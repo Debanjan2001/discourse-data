@@ -9,13 +9,28 @@ def topic_crawler(url: str = None, driver: WebDriver = None, max_posts = 5):
     try:
         driver.get(url)
 
+        try:
+            driver.find_element_by_class_name(
+                "widget-button.btn.btn.no-text.btn-icon"
+            ).click()
+        except:
+            pass
+
         topic_name = driver.find_element_by_tag_name("h1").text
         topic_info = driver.find_element_by_class_name("topic-map")
         metrics = topic_info.find_elements_by_tag_name("span")
-        # driver.find_elements_by_class_name(
-        #     "widget-button.btn.btn.no-text.btn-icon"
-        # ).click()
+        
+       
 
+        try:
+            popular_links_attached = topic_info.find_element_by_class_name("topic-links")
+            popular_links_attached_urls = [
+            link.get_attribute("href") for link in
+                popular_links_attached.find_elements_by_tag_name("a")
+            ]
+        except Exception as e:
+            popular_links_attached_urls = []
+            
         print(f"STARTED --- TOPIC: {topic_name}")
 
         topic_data = {
@@ -27,8 +42,17 @@ def topic_crawler(url: str = None, driver: WebDriver = None, max_posts = 5):
             "views": metrics[3].text,
             "users": metrics[4].text,
             "likes": metrics[5].text,
-            "num_links_attached": metrics[6].text,
         }
+
+        try:
+            topic_data["total_links_attached"] =  metrics[6].text,
+        except:
+            topic_data["total_links_attached"] = "0"
+
+        try:
+            topic_data["popular_links"] = popular_links_attached_urls
+        except:
+            topic_data["popular_links"] = []
 
         """
             Crawl Top 5 posts in this topic
@@ -53,6 +77,15 @@ def topic_crawler(url: str = None, driver: WebDriver = None, max_posts = 5):
                 post_likes = "NULL"
             post_description = post.find_element_by_class_name("cooked").text
 
+            try:
+                linked_posts = post.find_element_by_class_name("post-links-container")
+                linked_post_urls = [
+                    link.get_attribute("href") for link in 
+                    linked_posts.find_elements_by_tag_name("a")
+                ]
+            except Exception as e:
+                linked_post_urls = []
+
             current_data = {
                 "post_id": post_id,
                 "post_link": post_link,
@@ -60,6 +93,7 @@ def topic_crawler(url: str = None, driver: WebDriver = None, max_posts = 5):
                 "post_description": post_description,
                 "post_replies": post_replies,
                 "post_likes": post_likes,
+                "linked_posts":linked_post_urls,
             }
 
             posts_data.append(current_data)
