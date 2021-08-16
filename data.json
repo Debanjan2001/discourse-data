@@ -4,7 +4,7 @@
             "category_name": "boing",
             "category_description": "Automatically created BBS discussion topics for Boing Boing posts. Will close after 5 days.",
             "category_link": "https://bbs.boingboing.net/c/boing/3",
-            "num_topics": "83053"
+            "num_topics": "83074"
         },
         "topics": [
             {
@@ -22,10 +22,12 @@
                 },
                 "posts": [
                     {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/category-definition-for-boing-boing/60/1",
+                        "post_id": "1",
+                        "post_link": "https://bbs.boingboing.net/t/category-definition-for-boing-boing/60",
                         "post_author": "codinghorror",
+                        "post_author_link": "https://bbs.boingboing.net/u/codinghorror",
                         "post_description": "Automatically created BBS discussion topics for Boing Boing posts. Will close after 5 days.",
+                        "post_description_links": [],
                         "post_replies": "0 Reply",
                         "post_likes": "7",
                         "linked_posts": []
@@ -34,291 +36,315 @@
             },
             {
                 "topic_details": {
-                    "topic_title": "Afghanistan government falling to Taliban faster than expected",
-                    "topic_id": "203126",
-                    "topic_url": "https://bbs.boingboing.net/t/afghanistan-government-falling-to-taliban-faster-than-expected/203126",
-                    "topic_author": "beschizza",
-                    "created_timestamp": "Aug 13, 2021 9:40 pm",
-                    "replies": "82",
-                    "views": "847",
-                    "users": "39",
-                    "likes": "631",
+                    "topic_title": "Watch Mike Lindell lose his mind at his South Dakota symposium",
+                    "topic_id": "203178",
+                    "topic_url": "https://bbs.boingboing.net/t/watch-mike-lindell-lose-his-mind-at-his-south-dakota-symposium/203178",
+                    "topic_author": "boingboing",
+                    "created_timestamp": "Aug 15, 2021 12:26 am",
+                    "replies": "57",
+                    "views": "2.7k",
+                    "users": "41",
+                    "likes": "625",
                     "popular_links_attached": [
-                        "https://boingboing.net/2021/08/13/afghanistan-government-falling-to-taliban-faster-than-expected.html",
-                        "https://twitter.com/YasMohammedxx/status/1425166002636066816",
-                        "https://www.atlasobscura.com/articles/colonial-india-british-hedge-salt-tax",
-                        "https://gizmodo.com/u-s-embassy-in-afghanistan-posts-online-job-listing-wh-1847486271",
-                        "https://theconversation.com/afghanistan-what-the-conflict-means-for-the-global-heroin-trade-165995"
+                        "https://boingboing.net/2021/08/14/watch-mike-lindell-lose-his-mind-at-his-south-dakota-symposium.html",
+                        "https://www.pbs.org/newshour/nation/reno-casino-conman-pulled-greatest-hoax-american-history",
+                        "https://talkingpointsmemo.com/fivepoints/five-points-on-mike-lindells-dumpster-fire-cyber-symposium-election-fraud-event",
+                        "https://gizmodo.com/mypillow-ceo-s-cyber-symposium-goes-down-in-flames-afte-1847473301",
+                        "https://www.youtube.com/watch?v=FIXRsu2-uGo"
                     ]
                 },
                 "posts": [
                     {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/afghanistan-government-falling-to-taliban-faster-than-expected/203126/1",
-                        "post_author": "beschizza",
-                        "post_description": "Originally published at: Afghanistan government falling to Taliban faster than expected | Boing Boing 9\n\n\u2026",
-                        "post_replies": "0 Reply",
+                        "post_id": "1",
+                        "post_link": "https://bbs.boingboing.net/t/watch-mike-lindell-lose-his-mind-at-his-south-dakota-symposium/203178",
+                        "post_author": "boingboing",
+                        "post_author_link": "https://bbs.boingboing.net/u/boingboing",
+                        "post_description": "Originally published at: Watch Mike Lindell lose his mind at his South Dakota symposium | Boing Boing 41\n\n\u2026",
+                        "post_description_links": [
+                            "https://boingboing.net/2021/08/14/watch-mike-lindell-lose-his-mind-at-his-south-dakota-symposium.html"
+                        ],
+                        "post_replies": "1 Reply",
                         "post_likes": "6",
                         "linked_posts": []
                     },
                     {
-                        "post_id": 2,
-                        "post_link": "https://bbs.boingboing.net/t/afghanistan-government-falling-to-taliban-faster-than-expected/203126/2",
-                        "post_author": "mr_raccoon",
-                        "post_description": "It\u2019s almost as if the Taliban had 20 years to plan this. Sun Tzu would be shooting blood through his eyes if he saw how badly this went.",
-                        "post_replies": "1 Reply",
-                        "post_likes": "27",
-                        "linked_posts": []
-                    }
-                ]
-            },
-            {
-                "topic_details": {
-                    "topic_title": "Woman at Johnson County, Kansas commissioners meeting says anyone who votes \u201cyes\u201d on mask mandates will be \u201ctried for crimes against humanity\u201d",
-                    "topic_id": "203150",
-                    "topic_url": "https://bbs.boingboing.net/t/woman-at-johnson-county-kansas-commissioners-meeting-says-anyone-who-votes-yes-on-mask-mandates-will-be-tried-for-crimes-against-humanity/203150",
-                    "topic_author": "frauenfelder",
-                    "created_timestamp": "Aug 14, 2021 5:48 am",
-                    "replies": "68",
-                    "views": "2.4k",
-                    "users": "58",
-                    "likes": "514",
-                    "popular_links_attached": [
-                        "https://boingboing.net/2021/08/13/woman-at-johnson-county-kansas-commissioners-meeting-says-anyone-who-votes-yes-on-mask-mandates-will-be-tried-for-crimes-against-humanity.html",
-                        "https://www.wsj.com/amp/articles/russian-disinformation-campaign-aims-to-undermine-confidence-in-pfizer-other-covid-19-vaccines-u-s-officials-say-11615129200"
-                    ]
-                },
-                "posts": [
-                    {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/woman-at-johnson-county-kansas-commissioners-meeting-says-anyone-who-votes-yes-on-mask-mandates-will-be-tried-for-crimes-against-humanity/203150/1",
-                        "post_author": "frauenfelder",
-                        "post_description": "Originally published at: Woman at Johnson County, Kansas commissioners meeting says anyone who votes \"yes\" on mask mandates will be \"tried for crimes against humanity\" | Boing Boing 20\n\n\u2026",
+                        "post_id": "2",
+                        "post_link": "https://bbs.boingboing.net/t/watch-mike-lindell-lose-his-mind-at-his-south-dakota-symposium/203178/2",
+                        "post_author": "ficuswhisperer",
+                        "post_author_link": "https://bbs.boingboing.net/u/ficuswhisperer",
+                        "post_description": "I saw this when it aired on CNN a few days ago. The patience and iron will of Donie O\u2019Sullivan to go out and converse with these people is something else.\nAnderson Cooper\u2019s reaction at the end summarized the whole thing perfectly:\nThe \u201csecurity expert\u201d that is with Donie is pretty well known and has a voting machine hacking technique named after him. He knows his stuff.",
+                        "post_description_links": [
+                            "https://aws1.discourse-cdn.com/boingboing/original/4X/4/2/e/42e020d3b9cf02f5f56acfbd84f0c01f0a68a221.jpeg"
+                        ],
                         "post_replies": "3 Replies",
-                        "post_likes": "7",
+                        "post_likes": "31",
                         "linked_posts": []
                     },
                     {
-                        "post_id": 2,
-                        "post_link": "https://bbs.boingboing.net/t/woman-at-johnson-county-kansas-commissioners-meeting-says-anyone-who-votes-yes-on-mask-mandates-will-be-tried-for-crimes-against-humanity/203150/2",
-                        "post_author": "Chaz",
-                        "post_description": "You will not experiment on my children.\nShe\u2019s right about that. She will be experimenting on her children.",
+                        "post_id": "3",
+                        "post_link": "https://bbs.boingboing.net/t/watch-mike-lindell-lose-his-mind-at-his-south-dakota-symposium/203178/3",
+                        "post_author": "Jeroen_Metselaa",
+                        "post_author_link": "https://bbs.boingboing.net/u/Jeroen_Metselaa",
+                        "post_description": "How\u2026how could you tell if Mikey lost his mind?",
+                        "post_description_links": [],
                         "post_replies": "1 Reply",
-                        "post_likes": "39",
-                        "linked_posts": []
-                    }
-                ]
-            },
-            {
-                "topic_details": {
-                    "topic_title": "Man makes silicon chips in his garage fab",
-                    "topic_id": "203167",
-                    "topic_url": "https://bbs.boingboing.net/t/man-makes-silicon-chips-in-his-garage-fab/203167",
-                    "topic_author": "beschizza",
-                    "created_timestamp": "Aug 14, 2021 8:05 pm",
-                    "replies": "2",
-                    "views": "59",
-                    "users": "3",
-                    "likes": "1",
-                    "popular_links_attached": []
-                },
-                "posts": [
-                    {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/man-makes-silicon-chips-in-his-garage-fab/203167/1",
-                        "post_author": "beschizza",
-                        "post_description": "Originally published at: Man makes silicon chips in his garage fab | Boing Boing 4\n\n\u2026",
-                        "post_replies": "0 Reply",
-                        "post_likes": "NULL",
+                        "post_likes": "37",
                         "linked_posts": []
                     },
                     {
-                        "post_id": 2,
-                        "post_link": "https://bbs.boingboing.net/t/man-makes-silicon-chips-in-his-garage-fab/203167/2",
+                        "post_id": "4",
+                        "post_link": "https://bbs.boingboing.net/t/watch-mike-lindell-lose-his-mind-at-his-south-dakota-symposium/203178/4",
+                        "post_author": "fitzador",
+                        "post_author_link": "https://bbs.boingboing.net/u/fitzador",
+                        "post_description": "And yet the QAnon types subscribe to the Trump Rules of Evidence, which state that a mere hint of an accusation by Trump is definitive, undeniable proof beyond a reasonable doubt of whatever the claim is. For his opponents, however, a much higher burden is imposed and only Trump, at his sole discretion, will decide if his opponent\u2019s evidence (and it has to be more than accusations) is sufficient. Spoiler alert: it never will be.\nAlso, when Trump makes a bare accusation, the burden lies with the opponent to prove the accusation is not true. Trump doesn\u2019t have to provide any evidence. Also, the fact that many people believe Trump is substantial evidence that he\u2019s correct.",
+                        "post_description_links": [],
+                        "post_replies": "1 Reply",
+                        "post_likes": "26",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "5",
+                        "post_link": "https://bbs.boingboing.net/t/watch-mike-lindell-lose-his-mind-at-his-south-dakota-symposium/203178/5",
                         "post_author": "RickMycroft",
-                        "post_description": "Isn\u2019t there a lot of toxic shit involved in semiconductor fab?",
-                        "post_replies": "0 Reply",
-                        "post_likes": "NULL",
+                        "post_author_link": "https://bbs.boingboing.net/u/RickMycroft",
+                        "post_description": "Muddy Waters - You Can't Lose What You Ain't Never Had",
+                        "post_description_links": [
+                            "https://www.youtube.com/watch?v=TWNgzbgrDe0"
+                        ],
+                        "post_replies": "1 Reply",
+                        "post_likes": "24",
                         "linked_posts": []
                     }
                 ]
             },
             {
                 "topic_details": {
-                    "topic_title": "Snopes co-founder revealed as serial plagiarist, planned to fill site with \u201ctraffic-generating junk\u201d",
-                    "topic_id": "203131",
-                    "topic_url": "https://bbs.boingboing.net/t/snopes-co-founder-revealed-as-serial-plagiarist-planned-to-fill-site-with-traffic-generating-junk/203131",
-                    "topic_author": "beschizza",
-                    "created_timestamp": "Aug 13, 2021 10:23 pm",
-                    "replies": "28",
-                    "views": "772",
-                    "users": "23",
-                    "likes": "232",
+                    "topic_title": "Stare at the center of this video, then look around your room and hallucinate",
+                    "topic_id": "203208",
+                    "topic_url": "https://bbs.boingboing.net/t/stare-at-the-center-of-this-video-then-look-around-your-room-and-hallucinate/203208",
+                    "topic_author": "boingboing",
+                    "created_timestamp": "Aug 16, 2021 12:01 am",
+                    "replies": "25",
+                    "views": "622",
+                    "users": "19",
+                    "likes": "110",
                     "popular_links_attached": []
                 },
                 "posts": [
                     {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/snopes-co-founder-revealed-as-serial-plagiarist-planned-to-fill-site-with-traffic-generating-junk/203131/1",
-                        "post_author": "beschizza",
-                        "post_description": "Originally published at: Snopes co-founder revealed as serial plagiarist, planned to fill site with \"traffic-generating junk\" | Boing Boing 26\n\n\u2026",
-                        "post_replies": "1 Reply",
-                        "post_likes": "6",
+                        "post_id": "1",
+                        "post_link": "https://bbs.boingboing.net/t/stare-at-the-center-of-this-video-then-look-around-your-room-and-hallucinate/203208",
+                        "post_author": "boingboing",
+                        "post_author_link": "https://bbs.boingboing.net/u/boingboing",
+                        "post_description": "Originally published at: Stare at the center of this video, then look around your room and hallucinate | Boing Boing 16\n\n\u2026",
+                        "post_description_links": [
+                            "https://boingboing.net/2021/08/15/stare-at-the-center-of-this-video-then-look-around-your-room-and-hallucinate.html"
+                        ],
+                        "post_replies": "0 Reply",
+                        "post_likes": "5",
                         "linked_posts": []
                     },
                     {
-                        "post_id": 2,
-                        "post_link": "https://bbs.boingboing.net/t/snopes-co-founder-revealed-as-serial-plagiarist-planned-to-fill-site-with-traffic-generating-junk/203131/2",
-                        "post_author": "Lion",
-                        "post_description": "And that should just about be enough to end Snopes, which already has \u201cSave our Snopes\u201d all over it. This is a big day for the asshole liars of the world.",
+                        "post_id": "2",
+                        "post_link": "https://bbs.boingboing.net/t/stare-at-the-center-of-this-video-then-look-around-your-room-and-hallucinate/203208/2",
+                        "post_author": "FGD135",
+                        "post_author_link": "https://bbs.boingboing.net/u/FGD135",
+                        "post_description": "Nope. But then my eyes kept sliding out of focus all the time, like you\u2019re supposed to do when looking at one of those \u2018magic eye\u2019 3D thingies.",
+                        "post_description_links": [],
+                        "post_replies": "0 Reply",
+                        "post_likes": "5",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "3",
+                        "post_link": "https://bbs.boingboing.net/t/stare-at-the-center-of-this-video-then-look-around-your-room-and-hallucinate/203208/3",
+                        "post_author": "Amphitrite",
+                        "post_author_link": "https://bbs.boingboing.net/u/Amphitrite",
+                        "post_description": "Reminds me of the early 1980s when my ex subscribed to Omni magazine. They had a pull out page to rotate on your turntable. We spent a fair amount of time trying to trick our eyes. Didn\u2019t work very well. He said \u201cf-it\u201d and took a hit of real acid.",
+                        "post_description_links": [],
                         "post_replies": "1 Reply",
-                        "post_likes": "16",
+                        "post_likes": "12",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "4",
+                        "post_link": "https://bbs.boingboing.net/t/stare-at-the-center-of-this-video-then-look-around-your-room-and-hallucinate/203208/4",
+                        "post_author": "Papasan",
+                        "post_author_link": "https://bbs.boingboing.net/u/Papasan",
+                        "post_description": "Disappointed again B B! I demand to be tripping balls, Right Now!",
+                        "post_description_links": [],
+                        "post_replies": "0 Reply",
+                        "post_likes": "8",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "5",
+                        "post_link": "https://bbs.boingboing.net/t/stare-at-the-center-of-this-video-then-look-around-your-room-and-hallucinate/203208/5",
+                        "post_author": "PsiPhiGrrrl",
+                        "post_author_link": "https://bbs.boingboing.net/u/PsiPhiGrrrl",
+                        "post_description": "Worked for me\u2026my eyes kept changing focus on the center during the video, but the room seemed warped when I looked around. I\u2019d paused a show in the middle of a game simulation, and those scenes nearly made my eyes cross!",
+                        "post_description_links": [],
+                        "post_replies": "0 Reply",
+                        "post_likes": "11",
                         "linked_posts": []
                     }
                 ]
             },
             {
                 "topic_details": {
-                    "topic_title": "Read the new official explanation for Palpatine\u2019s return in Star Wars",
-                    "topic_id": "203112",
-                    "topic_url": "https://bbs.boingboing.net/t/read-the-new-official-explanation-for-palpatines-return-in-star-wars/203112",
-                    "topic_author": "thomdunn",
-                    "created_timestamp": "Aug 13, 2021 5:51 pm",
-                    "replies": "85",
-                    "views": "1.3k",
-                    "users": "48",
-                    "likes": "341",
+                    "topic_title": "Taliban enters Kabul, Afghan president flees, surrender negotiations underway",
+                    "topic_id": "203200",
+                    "topic_url": "https://bbs.boingboing.net/t/taliban-enters-kabul-afghan-president-flees-surrender-negotiations-underway/203200",
+                    "topic_author": "beschizza",
+                    "created_timestamp": "Aug 15, 2021 8:51 pm",
+                    "replies": "127",
+                    "views": "1.7k",
+                    "users": "52",
+                    "likes": "1.2k",
                     "popular_links_attached": [
-                        "https://boingboing.net/2021/08/13/read-the-new-official-explanation-for-palpatines-peturn-in-star-wars.html"
+                        "https://boingboing.net/2021/08/15/taliban-enter-kabul-afghan-president-flees-surrender-negotiations-underway.html",
+                        "https://www.businessinsider.com/us-evacuate-kabul-embassy-as-taliban-storm-the-afghan-capital-2021-8?amp",
+                        "https://www.theonion.com/george-w-bush-debuts-new-paintings-of-dogs-friends-g-1819595637",
+                        "https://twitter.com/BBCSanaSafi/status/1426975742034862081",
+                        "https://twitter.com/HuntClancy/status/1426371366987644930"
                     ]
                 },
                 "posts": [
                     {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/read-the-new-official-explanation-for-palpatines-return-in-star-wars/203112/1",
-                        "post_author": "thomdunn",
-                        "post_description": "Originally published at: Read the new official explanation for Palpatine's return in Star Wars | Boing Boing 15\n\n\u2026",
+                        "post_id": "1",
+                        "post_link": "https://bbs.boingboing.net/t/taliban-enters-kabul-afghan-president-flees-surrender-negotiations-underway/203200",
+                        "post_author": "beschizza",
+                        "post_author_link": "https://bbs.boingboing.net/u/beschizza",
+                        "post_description": "Originally published at: Taliban enters Kabul, Afghan president flees, surrender negotiations underway | Boing Boing 14\n\n\u2026",
+                        "post_description_links": [
+                            "https://boingboing.net/2021/08/15/taliban-enter-kabul-afghan-president-flees-surrender-negotiations-underway.html"
+                        ],
+                        "post_replies": "0 Reply",
+                        "post_likes": "5",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "2",
+                        "post_link": "https://bbs.boingboing.net/t/taliban-enters-kabul-afghan-president-flees-surrender-negotiations-underway/203200/2",
+                        "post_author": "CarlMud",
+                        "post_author_link": "https://bbs.boingboing.net/u/CarlMud",
+                        "post_description": "Thanks Dubya!",
+                        "post_description_links": [],
+                        "post_replies": "2 Replies",
+                        "post_likes": "23",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "3",
+                        "post_link": "https://bbs.boingboing.net/t/taliban-enters-kabul-afghan-president-flees-surrender-negotiations-underway/203200/3",
+                        "post_author": "lava",
+                        "post_author_link": "https://bbs.boingboing.net/u/lava",
+                        "post_description": "what happened to the 300,000 well drilled Afghan troops vs 75,000 Taliban?",
+                        "post_description_links": [],
+                        "post_replies": "4 Replies",
+                        "post_likes": "20",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "4",
+                        "post_link": "https://bbs.boingboing.net/t/taliban-enters-kabul-afghan-president-flees-surrender-negotiations-underway/203200/4",
+                        "post_author": "BakaNeko",
+                        "post_author_link": "https://bbs.boingboing.net/u/BakaNeko",
+                        "post_description": "Business Insider\nUS evacuate Kabul embassy as Taliban storm the Afghan capital 13\nHelicopters are transporting US officials from the embassy, as Taliban militants enter the outskirts of the Afghan capital and fear grips the city.\nPBS LearningMedia\nLast Days in Vietnam: The Embassy Evacuation | PBS LearningMedia 5\nLearn about the decision to evacuate Americans and South Vietnamese from the U.S. embassy and about the experience of a South Vietnamese Army lieutenant who stayed behind in this media gallery adapted from American Experience: Last Days in Vietnam....\nBoth helicopters were used in Vietnam and Afghanistan, I don\u2019t know which is which, but it seems the history is repeating itself.\nen.wikipedia.org\nBoeing Vertol CH-46 Sea Knight 2\nThe Boeing Vertol CH-46 Sea Knight is a medium-lift tandem-rotor transport helicopter powered by twin turboshaft engines. It was designed by Vertol and manufactured by Boeing Vertol following Vertol's acquisition by Boeing. Development of the Sea Knight, which was originally designated by the firm as the Vertol Model 107, commenced during 1956. It was envisioned as a successor to the first generation of rotorcraft, such as the H-21 \"Flying Banana\", that had been powered by piston engines; in i...\nen.wikipedia.org\nBoeing CH-47 Chinook 1\nThe Boeing CH-47 Chinook is an American twin-engined, tandem rotor, heavy-lift helicopter developed by American rotorcraft company Vertol and manufactured by Boeing Vertol (later renamed Boeing Helicopter and now named Boeing Rotorcraft Systems). The CH-47 is among the heaviest lifting Western helicopters. Its name, Chinook, is from the Native American Chinook people of Washington state. The Chinook was originally designed by Vertol, which had begun work in 1957 on a new tandem-rotor helicopte...",
+                        "post_description_links": [
+                            "https://en.wikipedia.org/wiki/Boeing_CH-47_Chinook",
+                            "https://www.businessinsider.com/us-evacuate-kabul-embassy-as-taliban-storm-the-afghan-capital-2021-8?amp",
+                            "https://thinktv.pbslearningmedia.org/resource/amex27ldv.ush.embassy/embassy-evacuation/",
+                            "https://en.wikipedia.org/wiki/Boeing_Vertol_CH-46_Sea_Knight"
+                        ],
+                        "post_replies": "2 Replies",
+                        "post_likes": "10",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "5",
+                        "post_link": "https://bbs.boingboing.net/t/taliban-enters-kabul-afghan-president-flees-surrender-negotiations-underway/203200/5",
+                        "post_author": "BakaNeko",
+                        "post_author_link": "https://bbs.boingboing.net/u/BakaNeko",
+                        "post_description": "Did they change colors?",
+                        "post_description_links": [],
+                        "post_replies": "1 Reply",
+                        "post_likes": "2",
+                        "linked_posts": []
+                    }
+                ]
+            },
+            {
+                "topic_details": {
+                    "topic_title": "Skateboarding downhill at 70 MPH",
+                    "topic_id": "203234",
+                    "topic_url": "https://bbs.boingboing.net/t/skateboarding-downhill-at-70-mph/203234",
+                    "topic_author": "beschizza",
+                    "created_timestamp": "Aug 16, 2021 6:39 pm",
+                    "replies": "12",
+                    "views": "173",
+                    "users": "13",
+                    "likes": "25",
+                    "popular_links_attached": []
+                },
+                "posts": [
+                    {
+                        "post_id": "1",
+                        "post_link": "https://bbs.boingboing.net/t/skateboarding-downhill-at-70-mph/203234",
+                        "post_author": "beschizza",
+                        "post_author_link": "https://bbs.boingboing.net/u/beschizza",
+                        "post_description": "Originally published at: Skateboarding downhill at 70 MPH | Boing Boing 5\n\n\u2026",
+                        "post_description_links": [
+                            "https://boingboing.net/2021/08/16/skateboarding-downhill-at-70-mph.html"
+                        ],
+                        "post_replies": "1 Reply",
+                        "post_likes": "0",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "2",
+                        "post_link": "https://bbs.boingboing.net/t/skateboarding-downhill-at-70-mph/203234/2",
+                        "post_author": "Enter_Name_Here",
+                        "post_author_link": "https://bbs.boingboing.net/u/Enter_Name_Here",
+                        "post_description": "Imagine either being the rider or the driver of that Subaru coming the other direction at around the 1:45 mark. Yikes.",
+                        "post_description_links": [],
+                        "post_replies": "1 Reply",
+                        "post_likes": "4",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "3",
+                        "post_link": "https://bbs.boingboing.net/t/skateboarding-downhill-at-70-mph/203234/3",
+                        "post_author": "Bernel",
+                        "post_author_link": "https://bbs.boingboing.net/u/Bernel",
+                        "post_description": "He was so lucky he got that meeting at a spot with good visibilty. At several points he was on the wrong side of the road with almost no vision ahead.",
+                        "post_description_links": [],
                         "post_replies": "0 Reply",
                         "post_likes": "4",
                         "linked_posts": []
                     },
                     {
-                        "post_id": 2,
-                        "post_link": "https://bbs.boingboing.net/t/read-the-new-official-explanation-for-palpatines-return-in-star-wars/203112/2",
-                        "post_author": "Olifiers",
-                        "post_description": "The Darth Plagueis story is the perfect explanation to it, sensible, well developed in the book \u2013 and present in Episode III, I think, in the dialogue between Palpatine and Skywalker. I thought it was canon, it\u2019s just right and ready to use. The whole clone thing is just cheap. =/",
+                        "post_id": "4",
+                        "post_link": "https://bbs.boingboing.net/t/skateboarding-downhill-at-70-mph/203234/4",
+                        "post_author": "semiotix",
+                        "post_author_link": "https://bbs.boingboing.net/u/semiotix",
+                        "post_description": "beschizza:\nBased on an assumed 6-7 feet per road line I can\u2019t clock him going faster than 40 MPH.\nIn the US, at least, those lines are 10 feet long, which more or less makes up the discrepancy.\nI\u2019d be surprised if the Swiss ones were much shorter than that. They look smaller because you\u2019re going fast and because of the angle from which you normally see them, so I think they\u2019d look tiny indeed if they were only 6 feet long.",
+                        "post_description_links": [
+                            "https://bbs.boingboing.net/t/skateboarding-downhill-at-70-mph/203234/1"
+                        ],
                         "post_replies": "1 Reply",
-                        "post_likes": "8",
-                        "linked_posts": []
-                    }
-                ]
-            },
-            {
-                "topic_details": {
-                    "topic_title": "San Francisco salon owner who released video of Pelosi getting her hair washed is sad she lost her business",
-                    "topic_id": "203082",
-                    "topic_url": "https://bbs.boingboing.net/t/san-francisco-salon-owner-who-released-video-of-pelosi-getting-her-hair-washed-is-sad-she-lost-her-business/203082",
-                    "topic_author": "frauenfelder",
-                    "created_timestamp": "Aug 13, 2021 12:54 am",
-                    "replies": "55",
-                    "views": "3.2k",
-                    "users": "44",
-                    "likes": "611",
-                    "popular_links_attached": [
-                        "https://boingboing.net/2021/08/12/san-francisco-salon-owner-who-released-video-of-pelosi-getting-her-hair-washed-is-sad-she-lost-her-business.html",
-                        "https://www.gofundme.com/f/sf-salon-pushed-out-by-pelosi-forced-to-relocate"
-                    ]
-                },
-                "posts": [
-                    {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/san-francisco-salon-owner-who-released-video-of-pelosi-getting-her-hair-washed-is-sad-she-lost-her-business/203082/1",
-                        "post_author": "frauenfelder",
-                        "post_description": "Originally published at: San Francisco salon owner who released video of Pelosi getting her hair washed is sad she lost her business | Boing Boing 35\n\n\u2026",
-                        "post_replies": "1 Reply",
-                        "post_likes": "11",
-                        "linked_posts": []
-                    },
-                    {
-                        "post_id": 2,
-                        "post_link": "https://bbs.boingboing.net/t/san-francisco-salon-owner-who-released-video-of-pelosi-getting-her-hair-washed-is-sad-she-lost-her-business/203082/2",
-                        "post_author": "FloridaManJefe",
-                        "post_description": "",
-                        "post_replies": "0 Reply",
-                        "post_likes": "20",
-                        "linked_posts": []
-                    }
-                ]
-            },
-            {
-                "topic_details": {
-                    "topic_title": "Marjorie Taylor Greene on hospital overcrowding: \u201cWe can\u2019t live forever\u201d",
-                    "topic_id": "203116",
-                    "topic_url": "https://bbs.boingboing.net/t/marjorie-taylor-greene-on-hospital-overcrowding-we-can-t-live-forever/203116",
-                    "topic_author": "frauenfelder",
-                    "created_timestamp": "Aug 13, 2021 8:01 pm",
-                    "replies": "66",
-                    "views": "1.1k",
-                    "users": "44",
-                    "likes": "656",
-                    "popular_links_attached": [
-                        "https://boingboing.net/2021/08/13/marjorie-taylor-greene-on-hospital-overcrowding-we-cant-live-forever.html",
-                        "https://www.vanityfair.com/news/2021/02/marjorie-taylor-greene-alleged-gym-affairs",
-                        "https://www.wfla.com/news/local-news/hernando-county/i-dont-care-whether-youve-been-vaccinated-or-not-because-dead-is-dead-oak-hill-hospital-ceo-says-beds-staff-at-breaking-point/",
-                        "https://www.apa.org/monitor/2021/04/news-funding-gun-research"
-                    ]
-                },
-                "posts": [
-                    {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/marjorie-taylor-greene-on-hospital-overcrowding-we-can-t-live-forever/203116/1",
-                        "post_author": "frauenfelder",
-                        "post_description": "Originally published at: Marjorie Taylor Greene on hospital overcrowding: \"We can't live forever\" | Boing Boing 14\n\n\u2026",
-                        "post_replies": "0 Reply",
-                        "post_likes": "7",
-                        "linked_posts": []
-                    },
-                    {
-                        "post_id": 2,
-                        "post_link": "https://bbs.boingboing.net/t/marjorie-taylor-greene-on-hospital-overcrowding-we-can-t-live-forever/203116/2",
-                        "post_author": "ChuckV",
-                        "post_description": "You first, Empty Green.\nDon\u2019t take your time.",
-                        "post_replies": "2 Replies",
-                        "post_likes": "44",
-                        "linked_posts": []
-                    }
-                ]
-            },
-            {
-                "topic_details": {
-                    "topic_title": "Forty-year-old slice of Charles and Diana\u2019s wedding cake sells for $2500",
-                    "topic_id": "203123",
-                    "topic_url": "https://bbs.boingboing.net/t/forty-year-old-slice-of-charles-and-dianas-wedding-cake-sells-for-2500/203123",
-                    "topic_author": "pesco",
-                    "created_timestamp": "Aug 13, 2021 9:18 pm",
-                    "replies": "23",
-                    "views": "252",
-                    "users": "17",
-                    "likes": "46",
-                    "popular_links_attached": []
-                },
-                "posts": [
-                    {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/forty-year-old-slice-of-charles-and-dianas-wedding-cake-sells-for-2500/203123/1",
-                        "post_author": "pesco",
-                        "post_description": "Originally published at: https://boingboing.net/2021/08/13/forty-year-old-slice-of-charles-and-dianas-wedding-cake-sells-for-2500.html 5\n\n\u2026",
-                        "post_replies": "0 Reply",
                         "post_likes": "1",
                         "linked_posts": []
                     },
                     {
-                        "post_id": 2,
-                        "post_link": "https://bbs.boingboing.net/t/forty-year-old-slice-of-charles-and-dianas-wedding-cake-sells-for-2500/203123/2",
-                        "post_author": "Papasan",
-                        "post_description": "Yucky poo.",
+                        "post_id": "5",
+                        "post_link": "https://bbs.boingboing.net/t/skateboarding-downhill-at-70-mph/203234/5",
+                        "post_author": "bryan",
+                        "post_author_link": "https://bbs.boingboing.net/u/bryan",
+                        "post_description": "That is just terrifyingly fast. I\u2019ve never been anywhere near that fast on skates or a bike, but I have exceeded 40mph on each. On a bike it brings to mind the second Demon Planet episode of Star Trek Voyager; on skates it brings to mind the idea of NEVER DOING SO AGAIN.",
+                        "post_description_links": [],
                         "post_replies": "0 Reply",
-                        "post_likes": "4",
+                        "post_likes": "1",
                         "linked_posts": []
                     }
                 ]
@@ -330,86 +356,96 @@
             "category_name": "general",
             "category_description": "Topics that don't need a category, or don't fit into any other existing category.",
             "category_link": "https://bbs.boingboing.net/c/general/4",
-            "num_topics": "3939"
+            "num_topics": "3941"
         },
         "topics": [
             {
                 "topic_details": {
-                    "topic_title": "Fuck Today",
-                    "topic_id": "67518",
-                    "topic_url": "https://bbs.boingboing.net/t/fuck-today/67518",
-                    "topic_author": "anon26940528",
-                    "created_timestamp": "Oct 14, 2015 10:44 pm",
-                    "replies": "4.9k",
-                    "views": "124k",
-                    "users": "225",
-                    "likes": "48.9k",
+                    "topic_title": "Odd Stuff (Part 2)",
+                    "topic_id": "184169",
+                    "topic_url": "https://bbs.boingboing.net/t/odd-stuff-part-2/184169",
+                    "topic_author": "system",
+                    "created_timestamp": "Nov 6, 2020 3:53 am",
+                    "replies": "2.5k",
+                    "views": "31.6k",
+                    "users": "83",
+                    "likes": "16.2k",
                     "popular_links_attached": [
-                        "http://screamintothevoid.com/",
-                        "http://pages.cs.wisc.edu/~kovar/hall.html",
-                        "https://bbs.boingboing.net/t/fuck-me/84174",
-                        "https://us2.campaign-archive.com/?e=&u=66ca69d70dceab5be9897856d&id=a2684e1453",
-                        "https://community.rspb.org.uk/ourwork/b/natureshomemagazine/posts/the-uk-welcomes-an-ocean-wanderer"
+                        "https://dailyposte.com/2021/06/radio-journalist-accidentally-had-sex-during-live-interview-with-man-she-is-interviewing/",
+                        "https://bbs.boingboing.net/t/odd-stuff-part-1/132256",
+                        "https://www.cracked.com/article_29158_communist-cookie-monster-mural-mystery-sparks-ire-in-illinois.html",
+                        "https://bbs.boingboing.net/t/odd-stuff-part-1/132256/5267",
+                        "https://www.reddit.com/r/NatureIsFuckingLit/comments/l2o3sr/2nd_internal_jaw_of_this_eel_reaches_out_for_its/"
                     ]
                 },
                 "posts": [
                     {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/fuck-today/67518/1",
-                        "post_author": "anon26940528",
-                        "post_description": "General thread for people to whine, moan, complain, and otherwise scream into the heavens.\nFor screaming into the void, click here 156 instead.\nI bombed my recent exam. I clearly don\u2019t understand mass spectrometry, despite convincing myself otherwise. Fortunately it was more than just MS, so I didn\u2019t lose my entire shirt, but fuckityFUCKFUCK!\nI am unbelievably angry with myself, mostly at my self-deception. I had learned it before in another class a while back and I convinced myself I didn\u2019t need to practice it and focus on other things. I clearly don\u2019t remember it, and looking through a textbook, I realize I\u2019m actually inept at it. Now I have to go to office hours and relearn this skill that I thought I had. And it\u2019s a fundamental skill that I want to develop, not just for this class.\nWhat annoys me most is that I can\u2019t find good resources on it. I have the old standby: A textbook that basically every chemistry student has nationwide, and then\u2026 nothing that is really helping it \u201cclick\u201d in my mind so that I can approach problems with any confidence. I can rationalize a correct answer, but I lose all confidence working towards one. Shit like this makes me seriously wonder if I have the chops for what I\u2019m doing.",
-                        "post_replies": "2 Replies",
-                        "post_likes": "13",
+                        "post_id": "1",
+                        "post_link": "https://bbs.boingboing.net/t/odd-stuff-part-2/184169",
+                        "post_author": "system",
+                        "post_author_link": "https://bbs.boingboing.net/u/system",
+                        "post_description": "Continuing the discussion from Odd Stuff (Part 1) 25.\nPrevious discussions:\nOdd Stuff (Part 1) 16",
+                        "post_description_links": [
+                            "https://bbs.boingboing.net/t/odd-stuff-part-1/132256/5267",
+                            "https://bbs.boingboing.net/t/odd-stuff-part-1/132256"
+                        ],
+                        "post_replies": "0 Reply",
+                        "post_likes": "2",
                         "linked_posts": [
-                            "https://bbs.boingboing.net/t/fuck-me/84174",
-                            "https://bbs.boingboing.net/t/a-plea-for-help-from-someone-being-casually-crushed-under-googles-heel/76666/26",
-                            "https://bbs.boingboing.net/t/v-victory-v/71196/45",
-                            "https://bbs.boingboing.net/t/gif-bank-for-the-bbs/66050/1142",
-                            "https://bbs.boingboing.net/t/fermenting/60404/273",
-                            ""
+                            "https://bbs.boingboing.net/t/unicorn-chasers/81515/3837"
                         ]
                     },
                     {
-                        "post_id": 2,
-                        "post_link": "https://bbs.boingboing.net/t/fuck-today/67518/2",
-                        "post_author": "anon33466019",
-                        "post_description": "I know nothing about mass spectrometry. But I do know about learning.\nSometimes things click, but more often than not it is a slog\u2013even for things that you will eventually master. So this is a two parter.\nDon\u2019t psych yourself out. This is critical. Acknowledging that something is hard is good, criticizing yourself for not being a master is bad. You must possess humble confidence\u2013which means you are going to fail, but failure leads to understanding.\nSecond, start solving your problems or exercises at quarter speed. Literally. Check every number, every calculation, use perfect penmanship, everything. If there is a mistake, start again even slower till it is impeccable. When it is impeccable, only then increase the speed at which you solve, calculate, and record.\nThere is a third step, but I don\u2019t want to muddy things",
-                        "post_replies": "2 Replies",
-                        "post_likes": "19",
-                        "linked_posts": []
-                    }
-                ]
-            },
-            {
-                "topic_details": {
-                    "topic_title": "Census data revelations",
-                    "topic_id": "203141",
-                    "topic_url": "https://bbs.boingboing.net/t/census-data-revelations/203141",
-                    "topic_author": "KathyPartdeux",
-                    "created_timestamp": "Aug 14, 2021 1:19 am",
-                    "replies": "6",
-                    "views": "102",
-                    "users": "5",
-                    "likes": "31",
-                    "popular_links_attached": []
-                },
-                "posts": [
-                    {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/census-data-revelations/203141/1",
-                        "post_author": "KathyPartdeux",
-                        "post_description": "mobile.twitter.com\nYarimar Bonilla \ud83d\udc69\ud83c\udffe\u200d\ud83d\udcbb 6\n@yarimarbonilla\nNewly released census data shows a DRAMATIC PLUMET \ud83d\udcc9in Puerto Ricans who identify solely as \"white\": from 75.8% to 17.1%. This might seem surprising, but it affirms what Godreau and I argue in the latest issue of @AmAnthroJournal (a thread \ud83e\uddf5) elnuevodia.com/noticias/local\u2026\n3:35 PM - 13 Aug 2021\n300\n130\nInteresting thread.\nThis subject is for broader discussion of the new census data.",
+                        "post_id": "2",
+                        "post_link": "https://bbs.boingboing.net/t/odd-stuff-part-2/184169/2",
+                        "post_author": "FGD135",
+                        "post_author_link": "https://bbs.boingboing.net/u/FGD135",
+                        "post_description": "After Cummings\u2019 Barnard Castle trip, cheeky Britons started using the word \u2018vision\u2019 in their passwords\ntheregister.com\nAfter Cummings' Barnard Castle trip, cheeky Britons started using the word... 3\nThat was still dwarfed by clods using 'password' itself, though\nBritons began using the word \u201cvision\u201d in their passwords after prime ministerial advisor Dominic Cummings was caught travelling across the country from his parents\u2019 farm in Durham to Barnard Castle \u201cto test\u201d his eyesight, according to research from Pen Test Partners (PTP).\nNot only that but the words \u201ccovid\u201d, \u201ccorona\u201d and \u201clockdown\u201d all increased in popularity over time, according to the infosec biz.",
+                        "post_description_links": [
+                            "https://www.bbc.com/news/52828076",
+                            "https://www.theregister.com/2020/11/05/passwords_ptp_study_vision_dominic_cummings/"
+                        ],
                         "post_replies": "0 Reply",
-                        "post_likes": "9",
+                        "post_likes": "6",
                         "linked_posts": []
                     },
                     {
-                        "post_id": 2,
-                        "post_link": "https://bbs.boingboing.net/t/census-data-revelations/203141/2",
-                        "post_author": "milliefink",
-                        "post_description": "Thanks, that really is an intriguing study. More evidence that the lie of racial whiteness never stops reshaping itself, but also, if I\u2019m reading it right, evidence as well that Tromp\u2019s dumping on Puerto Rico (lumping it in with other places in his fans\u2019 imaginations as another \u201cshithole\u201d country, despite it being a weird part of the U.S.) was counterproductive. It of course drove many Puerto Ricans away from being Republican voters (which doesn\u2019t seem covered in the study), but it also helped to shrink the US\u2019s \u201cwhite\u201d population. Oh the ironies.",
+                        "post_id": "3",
+                        "post_link": "https://bbs.boingboing.net/t/odd-stuff-part-2/184169/3",
+                        "post_author": "FGD135",
+                        "post_author_link": "https://bbs.boingboing.net/u/FGD135",
+                        "post_description": "Uncle Sam\u2019s legal eagles hope to get their claws on $1bn in Bitcoin \u2018stolen by hacker\u2019 from dark-web souk Silk Road\ntheregister.com\nUncle Sam's legal eagles hope to get their claws on $1bn in Bitcoin 'stolen... 2\n'Individual X' said to have surrendered the digital dosh\nThe US Department of Justice on Thursday filed a legal request to formally take control of more than $1bn in Bitcoin (BTC) generated from the sales of illicit goods at Silk Road.\nIt is believed the crypto-coins were stolen from the dark-web market at some point, and now the Feds want to take ownership of the haul.",
+                        "post_description_links": [
+                            "https://www.theregister.com/2020/11/05/us_bitcoin_1bn/"
+                        ],
                         "post_replies": "0 Reply",
-                        "post_likes": "7",
+                        "post_likes": "1",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "4",
+                        "post_link": "https://bbs.boingboing.net/t/odd-stuff-part-2/184169/4",
+                        "post_author": "CAP811",
+                        "post_author_link": "https://bbs.boingboing.net/u/CAP811",
+                        "post_description": "Jalopnik\nTurns Out DJ Marshmello's Stolen Huge 6x6 Truck Makes A Pretty Crappy Police... 14\nAs someone who once lived in Los Angeles for almost 20 years, I can tell you that, like all Angelenos, I\u2019ve spent an unhealthy amount of time considering police chases. They\u2019re a staple on LA news and, when you\u2019ve seen enough of them, you start to...",
+                        "post_description_links": [
+                            "https://jalopnik.com/turns-out-dj-marshmellos-stolen-huge-6x6-truck-makes-a-1845582730"
+                        ],
+                        "post_replies": "0 Reply",
+                        "post_likes": "8",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "5",
+                        "post_link": "https://bbs.boingboing.net/t/odd-stuff-part-2/184169/5",
+                        "post_author": "Immutable_Mike",
+                        "post_author_link": "https://bbs.boingboing.net/u/Immutable_Mike",
+                        "post_description": "the Guardian \u2013 4 Nov 20\nHow doughnuts became Australia's symbol of Covid hope 1\nThe sweet treat has become shorthand for no new cases and no new deaths from coronavirus \u2013 creating a hunger for the real thing",
+                        "post_description_links": [
+                            "https://www.theguardian.com/lifeandstyle/2020/nov/05/how-doughnuts-became-australias-symbol-of-covid-hope?CMP=soc_567&utm_medium=Social&utm_source=Facebook&fbclid=IwAR2B0gXiOvilcWuQEvBzMrJop3Z0uEkgdN55Sreqq0BRNpgLVhi0u4cmBcY#Echobox=1604536029"
+                        ],
+                        "post_replies": "0 Reply",
+                        "post_likes": "9",
                         "linked_posts": []
                     }
                 ]
@@ -422,234 +458,167 @@
                     "topic_author": "system",
                     "created_timestamp": "May 15, 2021 10:12 pm",
                     "replies": "1.6k",
-                    "views": "17.2k",
-                    "users": "72",
-                    "likes": "19.3k",
+                    "views": "17.5k",
+                    "users": "73",
+                    "likes": "19.5k",
                     "popular_links_attached": [
-                        "https://www.politicususa.com/2021/08/11/jen-psaki-fox-news-doocy.html",
                         "https://www.theroot.com/im-a-black-covid-long-hauler-who-wore-my-credentials-so-1847258885",
+                        "https://twitter.com/bengoldacre/status/1393142399963123712",
+                        "https://www.politicususa.com/2021/08/11/jen-psaki-fox-news-doocy.html",
                         "https://www.huffpost.com/entry/icu-doctor-health-care-workers-unvaccinated-patients_n_6102ad2ae4b000b997df1f17",
-                        "https://www.sciencedirect.com/science/article/pii/S0264410X21007362",
-                        "https://twitter.com/bengoldacre/status/1393142399963123712"
+                        "https://www.sciencedirect.com/science/article/pii/S0264410X21007362"
                     ]
                 },
                 "posts": [
                     {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/continuing-coronavirus-happenings-part-3/197863/1",
+                        "post_id": "1",
+                        "post_link": "https://bbs.boingboing.net/t/continuing-coronavirus-happenings-part-3/197863",
                         "post_author": "system",
+                        "post_author_link": "https://bbs.boingboing.net/u/system",
                         "post_description": "Continuing the discussion from Continuing coronavirus happenings (Part 2) - #5085 by vermes82 6.\nPrevious discussions:\nContinuing coronavirus happenings (Part 1) 3\nContinuing coronavirus happenings (Part 2) 9",
+                        "post_description_links": [
+                            "https://bbs.boingboing.net/t/continuing-coronavirus-happenings-part-2/184165/5085",
+                            "https://bbs.boingboing.net/t/continuing-coronavirus-happenings-part-2/184165",
+                            "https://bbs.boingboing.net/t/continuing-coronavirus-happenings-part-1/171637"
+                        ],
                         "post_replies": "0 Reply",
                         "post_likes": "2",
                         "linked_posts": []
                     },
                     {
-                        "post_id": 2,
+                        "post_id": "2",
                         "post_link": "https://bbs.boingboing.net/t/continuing-coronavirus-happenings-part-3/197863/2",
                         "post_author": "Mindysan33",
+                        "post_author_link": "https://bbs.boingboing.net/u/Mindysan33",
                         "post_description": "That fact that we need 3 parts for this thread\u2026",
+                        "post_description_links": [],
                         "post_replies": "2 Replies",
                         "post_likes": "37",
                         "linked_posts": []
-                    }
-                ]
-            },
-            {
-                "topic_details": {
-                    "topic_title": "Spaaaaace",
-                    "topic_id": "129071",
-                    "topic_url": "https://bbs.boingboing.net/t/spaaaaace/129071",
-                    "topic_author": "FGD135",
-                    "created_timestamp": "Sep 19, 2018 1:02 am",
-                    "replies": "1.6k",
-                    "views": "27.0k",
-                    "users": "57",
-                    "likes": "3.8k",
-                    "popular_links_attached": [
-                        "https://www.theregister.co.uk/2018/09/18/garry_hunt_interview/",
-                        "https://www.theregister.co.uk/2018/09/20/mars_radiation_levels/",
-                        "https://www.theregister.co.uk/2018/10/18/ancient_supercluster_galaxy/",
-                        "https://www.theregister.co.uk/2018/09/19/nuclear_pasta_universe/",
-                        "https://www.broadsheet.ie/2021/01/21/compression-artifacts/"
-                    ]
-                },
-                "posts": [
-                    {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/spaaaaace/129071/1",
-                        "post_author": "FGD135",
-                        "post_description": "theregister.co.uk\nThe Reg chats with Voyager Imaging Team member Dr Garry E Hunt 15\nRegister hack learns the benefits of brimming the tank before flight",
-                        "post_replies": "0 Reply",
-                        "post_likes": "4",
-                        "linked_posts": [
-                            "https://bbs.boingboing.net/t/i-didnt-know-the-boing-boing-bbs-had-a-food-topic-its-excellent/180981/7",
-                            "https://bbs.boingboing.net/t/2019-the-year-in-review/158325/3"
-                        ]
                     },
                     {
-                        "post_id": 2,
-                        "post_link": "https://bbs.boingboing.net/t/spaaaaace/129071/2",
-                        "post_author": "FGD135",
-                        "post_description": "\u201cSpaaaaace\u201d has 9 characters, that\u2019s why.",
-                        "post_replies": "1 Reply",
-                        "post_likes": "4",
-                        "linked_posts": []
-                    }
-                ]
-            },
-            {
-                "topic_details": {
-                    "topic_title": "Unusual foods",
-                    "topic_id": "202724",
-                    "topic_url": "https://bbs.boingboing.net/t/unusual-foods/202724",
-                    "topic_author": "Les_Pane",
-                    "created_timestamp": "Aug 6, 2021 7:04 pm",
-                    "replies": "86",
-                    "views": "693",
-                    "users": "32",
-                    "likes": "452",
-                    "popular_links_attached": [
-                        "https://foragerchef.com/milkweed-pods/",
-                        "https://en.wikipedia.org/wiki/Pachamanca",
-                        "https://thetakeout.com/i-swallowed-a-bug-will-i-be-okay-1847468690",
-                        "https://bbs.boingboing.net/t/save-but-dont-you-dare-improve-denvers-weird-and-wonderful-restaurant-casa-bonita/202649/36",
-                        "https://people.uwec.edu/ivogeler/w188/articles/karlmay.htm"
-                    ]
-                },
-                "posts": [
-                    {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/unusual-foods/202724/1",
-                        "post_author": "Les_Pane",
-                        "post_description": "This thread 2 about Casa Bonita in Denver, and the quality of their food, reminded me of a menu I keep in my office. \u201cOdd\u201d in the sense of \u201cunusual where I come from.\u201d\nGuinea pig is a staple food in the area. Here (in Hu\u00e1nuco, Peru) it was served roasted/grilled or as pachamanca 3 and cut in half nose to tail. Tasty, but a lot of work to eat. The two guys from Lima who were with us definitely had an embarrassed attitude of \u201cthis is peasant/country/redneck food\u201d when I said I was going to order it.",
-                        "post_replies": "1 Reply",
-                        "post_likes": "10",
-                        "linked_posts": [
-                            "https://bbs.boingboing.net/t/odd-stuff-part-2/184169/2529"
-                        ]
-                    },
-                    {
-                        "post_id": 2,
-                        "post_link": "https://bbs.boingboing.net/t/unusual-foods/202724/2",
-                        "post_author": "prooftheory",
-                        "post_description": "I\u2019m under the impression that they are generally kept live and slaughtered on demand by bashing it against a counter or something similar.",
+                        "post_id": "3",
+                        "post_link": "https://bbs.boingboing.net/t/continuing-coronavirus-happenings-part-3/197863/3",
+                        "post_author": "NukeML",
+                        "post_author_link": "https://bbs.boingboing.net/u/NukeML",
+                        "post_description": "This\u2019ll be the last one I hope.",
+                        "post_description_links": [],
                         "post_replies": "2 Replies",
-                        "post_likes": "NULL",
-                        "linked_posts": []
-                    }
-                ]
-            },
-            {
-                "topic_details": {
-                    "topic_title": "Apple Privacy Issues",
-                    "topic_id": "203157",
-                    "topic_url": "https://bbs.boingboing.net/t/apple-privacy-issues/203157",
-                    "topic_author": "PatrickD",
-                    "created_timestamp": "Aug 14, 2021 11:24 am",
-                    "replies": "3",
-                    "views": "63",
-                    "users": "3",
-                    "likes": "2",
-                    "popular_links_attached": []
-                },
-                "posts": [
-                    {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/apple-privacy-issues/203157/1",
-                        "post_author": "PatrickD",
-                        "post_description": "It strikes me as a little odd that BB hasn\u2019t yet mentioned the violation of privacy that Apple is rolling out soon. Maybe they\u2019re waiting for more information. Or maybe it doesn\u2019t strike them as problematic, even though many privacy experts have expressed concerns.",
-                        "post_replies": "0 Reply",
-                        "post_likes": "NULL",
+                        "post_likes": "23",
                         "linked_posts": []
                     },
                     {
-                        "post_id": 2,
-                        "post_link": "https://bbs.boingboing.net/t/apple-privacy-issues/203157/2",
-                        "post_author": "jerwin",
-                        "post_description": "https://bbs.boingboing.net/t/apple-to-scan-iphones-for-sexually-explicit-material-involving-children/202664/62 2\nclosed though.\nMaybe you have something to add?",
-                        "post_replies": "1 Reply",
-                        "post_likes": "1",
+                        "post_id": "4",
+                        "post_link": "https://bbs.boingboing.net/t/continuing-coronavirus-happenings-part-3/197863/4",
+                        "post_author": "Mindysan33",
+                        "post_author_link": "https://bbs.boingboing.net/u/Mindysan33",
+                        "post_description": "",
+                        "post_description_links": [],
+                        "post_replies": "0 Reply",
+                        "post_likes": "23",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "5",
+                        "post_link": "https://bbs.boingboing.net/t/continuing-coronavirus-happenings-part-3/197863/5",
+                        "post_author": "PsiPhiGrrrl",
+                        "post_author_link": "https://bbs.boingboing.net/u/PsiPhiGrrrl",
+                        "post_description": "Did you see that NYT article near the end of the last thread about the virus becoming like the 'flu\u2026in 5 years?\nETA: the link\nContinuing coronavirus happenings (Part 2)",
+                        "post_description_links": [
+                            "https://bbs.boingboing.net/t/continuing-coronavirus-happenings-part-2/184165/5084"
+                        ],
+                        "post_replies": "2 Replies",
+                        "post_likes": "16",
                         "linked_posts": []
                     }
                 ]
             },
             {
                 "topic_details": {
-                    "topic_title": "Odd Stuff (Part 2)",
-                    "topic_id": "184169",
-                    "topic_url": "https://bbs.boingboing.net/t/odd-stuff-part-2/184169",
-                    "topic_author": "system",
-                    "created_timestamp": "Nov 6, 2020 3:53 am",
-                    "replies": "2.5k",
-                    "views": "31.3k",
-                    "users": "83",
-                    "likes": "16.0k",
+                    "topic_title": "Dead Celebrity",
+                    "topic_id": "75726",
+                    "topic_url": "https://bbs.boingboing.net/t/dead-celebrity/75726",
+                    "topic_author": "bunkyboar",
+                    "created_timestamp": "Mar 28, 2016 4:49 am",
+                    "replies": "2.8k",
+                    "views": "89.7k",
+                    "users": "186",
+                    "likes": "20.7k",
                     "popular_links_attached": [
-                        "https://bbs.boingboing.net/t/odd-stuff-part-1/132256/5267",
-                        "https://www.reddit.com/r/NatureIsFuckingLit/comments/l2o3sr/2nd_internal_jaw_of_this_eel_reaches_out_for_its/",
-                        "https://www.cracked.com/article_29158_communist-cookie-monster-mural-mystery-sparks-ire-in-illinois.html",
-                        "https://bbs.boingboing.net/t/odd-stuff-part-1/132256",
-                        "https://dailyposte.com/2021/06/radio-journalist-accidentally-had-sex-during-live-interview-with-man-she-is-interviewing/"
+                        "https://www.theguardian.com/uk-news/2016/jul/02/caroline-aherne-actor-comedian-dies-52-royle-family",
+                        "https://en.wikipedia.org/wiki/Deaths_in_2016",
+                        "https://www.msn.com/en-us/health/health-news/body-positive-model-elly-mayday-just-died-at-age-30/ar-BBUrNOT?ocid=spartanntp",
+                        "https://bbs.boingboing.net/t/why-we-should-pity-not-hate-donald-trump/82758/44",
+                        "https://variety.com/2017/film/news/stephen-furst-dies-dead-63-animal-house-babylon-5-st-elsewhere-1202469695/"
                     ]
                 },
                 "posts": [
                     {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/odd-stuff-part-2/184169/1",
-                        "post_author": "system",
-                        "post_description": "Continuing the discussion from Odd Stuff (Part 1) 25.\nPrevious discussions:\nOdd Stuff (Part 1) 16",
-                        "post_replies": "0 Reply",
-                        "post_likes": "2",
+                        "post_id": "1",
+                        "post_link": "https://bbs.boingboing.net/t/dead-celebrity/75726",
+                        "post_author": "bunkyboar",
+                        "post_author_link": "https://bbs.boingboing.net/u/bunkyboar",
+                        "post_description": "Use this topic to mourn the dead.",
+                        "post_description_links": [],
+                        "post_replies": "1 Reply",
+                        "post_likes": "5",
                         "linked_posts": [
-                            "https://bbs.boingboing.net/t/unicorn-chasers/81515/3837"
+                            "https://bbs.boingboing.net/t/why-we-should-pity-not-hate-donald-trump/82758/44",
+                            "https://bbs.boingboing.net/t/question-atom-questions-questions-questions-atom-question/76536/612",
+                            "https://bbs.boingboing.net/t/clint-eastwoods-day-has-been-made-hoax/103079/2",
+                            "https://bbs.boingboing.net/t/lee-iacocca-october-15th-1924-july-2nd-2019/147161/2",
+                            "https://bbs.boingboing.net/t/2019-the-year-in-review/158325/3",
+                            ""
                         ]
                     },
                     {
-                        "post_id": 2,
-                        "post_link": "https://bbs.boingboing.net/t/odd-stuff-part-2/184169/2",
-                        "post_author": "FGD135",
-                        "post_description": "After Cummings\u2019 Barnard Castle trip, cheeky Britons started using the word \u2018vision\u2019 in their passwords\ntheregister.com\nAfter Cummings' Barnard Castle trip, cheeky Britons started using the word... 3\nThat was still dwarfed by clods using 'password' itself, though\nBritons began using the word \u201cvision\u201d in their passwords after prime ministerial advisor Dominic Cummings was caught travelling across the country from his parents\u2019 farm in Durham to Barnard Castle \u201cto test\u201d his eyesight, according to research from Pen Test Partners (PTP).\nNot only that but the words \u201ccovid\u201d, \u201ccorona\u201d and \u201clockdown\u201d all increased in popularity over time, according to the infosec biz.",
+                        "post_id": "2",
+                        "post_link": "https://bbs.boingboing.net/t/dead-celebrity/75726/2",
+                        "post_author": "bunkyboar",
+                        "post_author_link": "https://bbs.boingboing.net/u/bunkyboar",
+                        "post_description": "CNN\nJim Harrison, author of 'Legends of the Fall,' dies 2\nJim Harrison has died. The author, poet and outdoorsman -- whose novella of the frontier, \"Legends of the Fall,\" became a hit movie starring Brad Pitt -- was 78",
+                        "post_description_links": [
+                            "https://www.cnn.com/2016/03/27/entertainment/author-jim-harrison-obit-legends-fall-feat/index.html"
+                        ],
                         "post_replies": "0 Reply",
-                        "post_likes": "6",
-                        "linked_posts": []
-                    }
-                ]
-            },
-            {
-                "topic_details": {
-                    "topic_title": "Spies, Lies and Realpolitik",
-                    "topic_id": "178855",
-                    "topic_url": "https://bbs.boingboing.net/t/spies-lies-and-realpolitik/178855",
-                    "topic_author": "FGD135",
-                    "created_timestamp": "Aug 26, 2020 3:19 am",
-                    "replies": "147",
-                    "views": "2.7k",
-                    "users": "14",
-                    "likes": "390",
-                    "popular_links_attached": [
-                        "https://en.wikipedia.org/wiki/Culinary_Institute_of_America",
-                        "https://www.cia.gov/news-information/featured-story-archive/2012-featured-story-archive/simple-sabotage.html",
-                        "https://www.theregister.com/2021/05/26/q_job/",
-                        "https://www.independent.co.uk/news/world/americas/us-politics/trump-hr-mcmaster-spies-survivor-b1847606.html",
-                        "https://www.forces.net/news/operation-mincemeat-how-homeless-mans-body-fooled-ww2-nazi-germany"
-                    ]
-                },
-                "posts": [
-                    {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/spies-lies-and-realpolitik/178855/1",
-                        "post_author": "FGD135",
-                        "post_description": "Not quite sure where I\u2019m going with this yet.",
-                        "post_replies": "0 Reply",
-                        "post_likes": "5",
+                        "post_likes": "3",
                         "linked_posts": []
                     },
                     {
-                        "post_id": 2,
-                        "post_link": "https://bbs.boingboing.net/t/spies-lies-and-realpolitik/178855/2",
-                        "post_author": "FGD135",
-                        "post_description": "The Viking Snowden: Denmark spy chief \u2018relieved of duty\u2019 after whistleblower reveals illegal snooping on citizens\ntheregister.com\nThe Viking Snowden: Denmark spy chief 'relieved of duty' after whistleblower... 3\nWhereas in America spy chiefs retire on full pensions, hit the chat show circuit\nDenmark\u2019s top foreign intelligence chief has been suspended for spying on Danish citizens illegally for up to six years after a whistleblower released a trove of documents to government regulators.",
+                        "post_id": "3",
+                        "post_link": "https://bbs.boingboing.net/t/dead-celebrity/75726/3",
+                        "post_author": "TobinL",
+                        "post_author_link": "https://bbs.boingboing.net/u/TobinL",
+                        "post_description": "I will just leave this handy link here\u2026\nen.wikipedia.org\nLists of deaths by year 42\nThis is a list of notable deaths, organized by year. New deaths articles are added to their respective month (e.g., Deaths in March 2018), and then linked here.\nso should we start a pool in 2017?",
+                        "post_description_links": [
+                            "https://en.wikipedia.org/wiki/Deaths_in_2016"
+                        ],
+                        "post_replies": "5 Replies",
+                        "post_likes": "7",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "4",
+                        "post_link": "https://bbs.boingboing.net/t/dead-celebrity/75726/4",
+                        "post_author": "anon37332521",
+                        "post_author_link": "https://bbs.boingboing.net/u/anon37332521",
+                        "post_description": "I\u2019m a little floored over who we\u2019ve lost over the last decade. On the other side of the equation: yes, I\u2019m X years old. My idols are dying now.",
+                        "post_description_links": [],
                         "post_replies": "0 Reply",
+                        "post_likes": "12",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "5",
+                        "post_link": "https://bbs.boingboing.net/t/dead-celebrity/75726/5",
+                        "post_author": "LDoBe",
+                        "post_author_link": "https://bbs.boingboing.net/u/LDoBe",
+                        "post_description": "TobinL:\nso should we start pool in 2017?\nI dunno, should we?",
+                        "post_description_links": [
+                            "https://bbs.boingboing.net/t/dead-celebrity/75726/3",
+                            "https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/boingboing/original/3X/2/f/2fc07da15cf0260971616c117ff5f95d50d7115f.jpg"
+                        ],
+                        "post_replies": "2 Replies",
                         "post_likes": "8",
                         "linked_posts": []
                     }
@@ -657,75 +626,184 @@
             },
             {
                 "topic_details": {
-                    "topic_title": "Vulnerabilities",
-                    "topic_id": "132160",
-                    "topic_url": "https://bbs.boingboing.net/t/vulnerabilities/132160",
-                    "topic_author": "FGD135",
-                    "created_timestamp": "Oct 30, 2018 3:38 am",
-                    "replies": "422",
-                    "views": "11.3k",
-                    "users": "39",
-                    "likes": "834",
+                    "topic_title": "Fuck Today",
+                    "topic_id": "67518",
+                    "topic_url": "https://bbs.boingboing.net/t/fuck-today/67518",
+                    "topic_author": "anon26940528",
+                    "created_timestamp": "Oct 14, 2015 10:44 pm",
+                    "replies": "4.9k",
+                    "views": "125k",
+                    "users": "225",
+                    "likes": "49.2k",
                     "popular_links_attached": [
-                        "https://www.theregister.co.uk/2019/02/14/password_length/",
-                        "https://www.washingtonpost.com/technology/2021/04/24/pentagon-internet-address-mystery/",
-                        "https://www.wintellect.com/using-openvpn-azure-low-cost-private-vpn/",
-                        "https://www.theregister.co.uk/2018/10/31/github_lost_a_network_link_for_43_seconds_went_titsup_for_a_day/",
-                        "https://krebsonsecurity.com/2020/04/when-in-doubt-hang-up-look-up-call-back/"
+                        "https://us2.campaign-archive.com/?e=&u=66ca69d70dceab5be9897856d&id=a2684e1453",
+                        "http://screamintothevoid.com/",
+                        "http://pages.cs.wisc.edu/~kovar/hall.html",
+                        "https://bbs.boingboing.net/t/fuck-me/84174",
+                        "https://community.rspb.org.uk/ourwork/b/natureshomemagazine/posts/the-uk-welcomes-an-ocean-wanderer"
                     ]
                 },
                 "posts": [
                     {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/vulnerabilities/132160/1",
-                        "post_author": "FGD135",
-                        "post_description": "A thread to keep an eye on stuff that can be hacked.",
-                        "post_replies": "0 Reply",
-                        "post_likes": "1",
+                        "post_id": "1",
+                        "post_link": "https://bbs.boingboing.net/t/fuck-today/67518",
+                        "post_author": "anon26940528",
+                        "post_author_link": "https://bbs.boingboing.net/u/anon26940528",
+                        "post_description": "General thread for people to whine, moan, complain, and otherwise scream into the heavens.\nFor screaming into the void, click here 157 instead.\nI bombed my recent exam. I clearly don\u2019t understand mass spectrometry, despite convincing myself otherwise. Fortunately it was more than just MS, so I didn\u2019t lose my entire shirt, but fuckityFUCKFUCK!\nI am unbelievably angry with myself, mostly at my self-deception. I had learned it before in another class a while back and I convinced myself I didn\u2019t need to practice it and focus on other things. I clearly don\u2019t remember it, and looking through a textbook, I realize I\u2019m actually inept at it. Now I have to go to office hours and relearn this skill that I thought I had. And it\u2019s a fundamental skill that I want to develop, not just for this class.\nWhat annoys me most is that I can\u2019t find good resources on it. I have the old standby: A textbook that basically every chemistry student has nationwide, and then\u2026 nothing that is really helping it \u201cclick\u201d in my mind so that I can approach problems with any confidence. I can rationalize a correct answer, but I lose all confidence working towards one. Shit like this makes me seriously wonder if I have the chops for what I\u2019m doing.",
+                        "post_description_links": [
+                            "http://screamintothevoid.com/"
+                        ],
+                        "post_replies": "2 Replies",
+                        "post_likes": "13",
+                        "linked_posts": [
+                            "https://bbs.boingboing.net/t/fuck-me/84174",
+                            "https://bbs.boingboing.net/t/a-plea-for-help-from-someone-being-casually-crushed-under-googles-heel/76666/26",
+                            "https://bbs.boingboing.net/t/v-victory-v/71196/45",
+                            "https://bbs.boingboing.net/t/gif-bank-for-the-bbs/66050/1142",
+                            "https://bbs.boingboing.net/t/fermenting/60404/273",
+                            ""
+                        ]
+                    },
+                    {
+                        "post_id": "2",
+                        "post_link": "https://bbs.boingboing.net/t/fuck-today/67518/2",
+                        "post_author": "anon33466019",
+                        "post_author_link": "https://bbs.boingboing.net/u/anon33466019",
+                        "post_description": "I know nothing about mass spectrometry. But I do know about learning.\nSometimes things click, but more often than not it is a slog\u2013even for things that you will eventually master. So this is a two parter.\nDon\u2019t psych yourself out. This is critical. Acknowledging that something is hard is good, criticizing yourself for not being a master is bad. You must possess humble confidence\u2013which means you are going to fail, but failure leads to understanding.\nSecond, start solving your problems or exercises at quarter speed. Literally. Check every number, every calculation, use perfect penmanship, everything. If there is a mistake, start again even slower till it is impeccable. When it is impeccable, only then increase the speed at which you solve, calculate, and record.\nThere is a third step, but I don\u2019t want to muddy things",
+                        "post_description_links": [],
+                        "post_replies": "2 Replies",
+                        "post_likes": "19",
                         "linked_posts": []
                     },
                     {
-                        "post_id": 2,
-                        "post_link": "https://bbs.boingboing.net/t/vulnerabilities/132160/2",
-                        "post_author": "FGD135",
-                        "post_description": "theregister.co.uk\nPain in the brain! Kaspersky warns of hackable brain implants 2\nThat furious clicking you hear is Charlie Brooker frantically writing his next script",
+                        "post_id": "3",
+                        "post_link": "https://bbs.boingboing.net/t/fuck-today/67518/3",
+                        "post_author": "OtherMichael",
+                        "post_author_link": "https://bbs.boingboing.net/u/OtherMichael",
+                        "post_description": "An untested fix that I pushed to TEST on Friday before I left on vacation was tested and pushed to PROD in my absence. Tested SUCCESSFULLY\u2026 for the target scenario, but not for the most common-use case scenario.\nWHERE IT FAILS UTTERLY O JESUS PEOPLE THIS IS WHY WE NEED A REAL QA RESOURSE ASSIGNED TO THE PROJECT\nyes yes i know i should have tested the code i didn\u2019t have time i got everything done on my MUST DO list as well as the PLUS THESE SUPER URGENT NEW ISSUES list as well and seriously the fix was six characters moreorless",
+                        "post_description_links": [],
+                        "post_replies": "3 Replies",
+                        "post_likes": "22",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "4",
+                        "post_link": "https://bbs.boingboing.net/t/fuck-today/67518/4",
+                        "post_author": "Ratel",
+                        "post_author_link": "https://bbs.boingboing.net/u/Ratel",
+                        "post_description": "I just finished writing up an extensive, although I knew not fully comprehensive, test plan. I hoped the test plan would become more comprehensive with feedback, and some has come in.\nWe got as many people to test as we could, although everyone else\u2019s schedules were deemed priority. We finally got signoff from each department, and upgraded our Production System.\nNobody could make purchases on our site for over a day.\nI take some comfort in the fact that it\u2019s shaping up like the issue was in fact something that we had tested out and seemed successful, but that just means that there are likely significant differences in our Test and Live environments that we have to hunt down now.\nOtherMichael:\nyes yes i know i should have tested the code i didn\u2019t have time i got everything done on my MUST DO list as well as the PLUS THESE SUPER URGENT NEW ISSUES list as well and seriously the fix was six characters moreorless\nI\u2019ve told people a millions times, it\u2019s pointless to have me test my own code. Once I\u2019ve dug myself that deeply into something it is impossible for me to approach it like an end user.",
+                        "post_description_links": [
+                            "https://bbs.boingboing.net/t/fuck-today/67518/3"
+                        ],
+                        "post_replies": "2 Replies",
+                        "post_likes": "13",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "5",
+                        "post_link": "https://bbs.boingboing.net/t/fuck-today/67518/5",
+                        "post_author": "Ratel",
+                        "post_author_link": "https://bbs.boingboing.net/u/Ratel",
+                        "post_description": "Oldie but goodie:\nhttp://pages.cs.wisc.edu/~kovar/hall.html 43",
+                        "post_description_links": [
+                            "http://pages.cs.wisc.edu/~kovar/hall.html"
+                        ],
                         "post_replies": "0 Reply",
-                        "post_likes": "1",
+                        "post_likes": "5",
                         "linked_posts": []
                     }
                 ]
             },
             {
                 "topic_details": {
-                    "topic_title": "Hair Self-care",
-                    "topic_id": "203147",
-                    "topic_url": "https://bbs.boingboing.net/t/hair-self-care/203147",
-                    "topic_author": "Ryuthrowsstuff",
-                    "created_timestamp": "Aug 13, 2021 1:41 am",
-                    "replies": "16",
-                    "views": "98",
-                    "users": "13",
-                    "likes": "50",
-                    "popular_links_attached": []
+                    "topic_title": "Happy Mutants food topic",
+                    "topic_id": "141774",
+                    "topic_url": "https://bbs.boingboing.net/t/happy-mutants-food-topic/141774",
+                    "topic_author": "kentkb",
+                    "created_timestamp": "Mar 31, 2019 10:08 am",
+                    "replies": "3.4k",
+                    "views": "53.3k",
+                    "users": "103",
+                    "likes": "24.9k",
+                    "popular_links_attached": [
+                        "https://www.thedailymash.co.uk/news/food/six-kitchen-staples-you-wont-eat-even-if-this-lasts-100-fking-years-20200410195325",
+                        "https://www.seriouseats.com/",
+                        "https://www.sbs.com.au/food/recipes/aracena-chicken-chickpeas",
+                        "https://www.snopes.com/fact-check/neiman-marcus-cookies/",
+                        "https://mymodernmet.com/wild-versus-undomesticated-fruit/"
+                    ]
                 },
                 "posts": [
                     {
-                        "post_id": 1,
-                        "post_link": "https://bbs.boingboing.net/t/hair-self-care/203147/1",
-                        "post_author": "Ryuthrowsstuff",
-                        "post_description": "Mister44:\n\u201cshort on sides and back, long on the top\u201d cut.\nYou mean \u201cthe covid\u201d? It\u2019s funny how that became the default for so many guys.\nI just stopped cutting it. My sister gave me a trim back in February.",
-                        "post_replies": "5 Replies",
-                        "post_likes": "3",
+                        "post_id": "1",
+                        "post_link": "https://bbs.boingboing.net/t/happy-mutants-food-topic/141774",
+                        "post_author": "kentkb",
+                        "post_author_link": "https://bbs.boingboing.net/u/kentkb",
+                        "post_description": "I like food, cooking it and eating it.\nI want to see other Boing Boing Buddies favorite foods and recipes. Here is my secret recipe for what I call \u201dmarinated monkey meat.\u201d\nOnly tested on beef and pork so far.\nNo monkeys were injured in developing this recipe .\nFor each pound of flesh:\n2 oz of soy sauce\n2 oz apple cider vinegar\n1 tsp of hot sauce ( Sriracha works great )\n2 crushed cloves of garlic\n7 drops of liquid smoke ( optional )\n1/8th tsp of fish sauce ( also optional )\nCut flesh into 1/2 inch thick strips ( skirt steak is really swell as it is )\nPlace in appropriate sized plastic bag or other container.\n1 hour in the fridge, turn over flesh and massage every 15 minutes.\nAlways massage your meat.\nPat dry and put back in the fridge on a plate for 1 hour to dry even more.\nRefrigerators are dehumidateers .\nDry equals a good sear.\nI use a Weber gas grill.\n2 minutes on each side for medium rare.\nI tent with aluminum foil after grilling for 15 minutes before cutting into bite-sized bites and serve over Kimchee rice. (Another recipe to share)",
+                        "post_description_links": [
+                            "https://aws1.discourse-cdn.com/boingboing/original/4X/0/8/4/084853d362237aecddbec83f044bf02497bee40d.jpeg"
+                        ],
+                        "post_replies": "0 Reply",
+                        "post_likes": "22",
                         "linked_posts": [
-                            "https://bbs.boingboing.net/t/san-francisco-salon-owner-who-released-video-of-pelosi-getting-her-hair-washed-is-sad-she-lost-her-business/203082/14"
+                            "https://bbs.boingboing.net/t/attempt-to-make-turkish-coffee-in-tiny-sauce-pot-ends-in-failure/182463/16",
+                            "https://bbs.boingboing.net/t/2020-the-year-in-review/187893/3",
+                            "https://bbs.boingboing.net/t/i-didnt-know-the-boing-boing-bbs-had-a-food-topic-its-excellent/180981/6",
+                            "https://bbs.boingboing.net/t/2019-the-year-in-review/158325/3",
+                            "https://bbs.boingboing.net/t/the-charcoal-grill-throws-almost-no-smoke-is-fully-portable-in-use-and-delivers-flavorful-food/189852/11",
+                            ""
                         ]
                     },
                     {
-                        "post_id": 2,
-                        "post_link": "https://bbs.boingboing.net/t/hair-self-care/203147/2",
-                        "post_author": "apalatn",
-                        "post_description": "Ryuthrowsstuff:\nYou mean \u201cthe covid\u201d? It\u2019s funny how that became the default for so many guys.\nI decided to beat genetics to the punch and went full chrome-dome.",
+                        "post_id": "2",
+                        "post_link": "https://bbs.boingboing.net/t/happy-mutants-food-topic/141774/2",
+                        "post_author": "FGD135",
+                        "post_author_link": "https://bbs.boingboing.net/u/FGD135",
+                        "post_description": "I\u2019ll post something later, but I\u2019ll have to find the pictures and translate the recipes.\nMeanwhile, there is some great stuff in El Reg\u2019s \u201cPost-pub nosh neckfiller\u201d column:\nhttps://search.theregister.co.uk/?q=Post-pub+nosh+neckfiller&advanced=1&author=&date=the+dawn+of+time&results_per_page=20 7",
+                        "post_description_links": [
+                            "https://search.theregister.co.uk/?q=Post-pub+nosh+neckfiller&advanced=1&author=&date=the+dawn+of+time&results_per_page=20",
+                            "https://aws1.discourse-cdn.com/boingboing/original/4X/c/f/c/cfc94d15f641d01884f43f5b3e078bccfb21ad32.jpeg"
+                        ],
+                        "post_replies": "2 Replies",
+                        "post_likes": "25",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "3",
+                        "post_link": "https://bbs.boingboing.net/t/happy-mutants-food-topic/141774/3",
+                        "post_author": "Immutable_Mike",
+                        "post_author_link": "https://bbs.boingboing.net/u/Immutable_Mike",
+                        "post_description": "I\u2019ve just cooked (and eaten) this. Lovely, but don\u2019t skimp on the salt.\nhttps://www.sbs.com.au/food/recipes/aracena-chicken-chickpeas 20",
+                        "post_description_links": [
+                            "https://www.sbs.com.au/food/recipes/aracena-chicken-chickpeas"
+                        ],
                         "post_replies": "0 Reply",
+                        "post_likes": "6",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "4",
+                        "post_link": "https://bbs.boingboing.net/t/happy-mutants-food-topic/141774/4",
+                        "post_author": "milliefink",
+                        "post_author_link": "https://bbs.boingboing.net/u/milliefink",
+                        "post_description": "Still the best cookies I\u2019ve ever made. I think it\u2019s the oat flour that makes it. I cut the recipe in half.\nEdit: link includes recipe.\nSnopes.com\nFACT CHECK: Is the Neiman Marcus Cookie Story True? 21\nDid a woman seek revenge after being charged $250 by Neiman Marcus for a chocolate chip cookie recipe? Wait...or was it Mrs. Fields?",
+                        "post_description_links": [
+                            "https://www.snopes.com/fact-check/neiman-marcus-cookies/"
+                        ],
+                        "post_replies": "1 Reply",
+                        "post_likes": "5",
+                        "linked_posts": []
+                    },
+                    {
+                        "post_id": "5",
+                        "post_link": "https://bbs.boingboing.net/t/happy-mutants-food-topic/141774/5",
+                        "post_author": "belovedvillain",
+                        "post_author_link": "https://bbs.boingboing.net/u/belovedvillain",
+                        "post_description": "I\u2019m a Serious Eats devotee. Kenji, Stella, Daniel, and co. deliver phenomenally well researched and executed recipes as well as some very entertaining stories.\nwww.seriouseats.com 14",
+                        "post_description_links": [
+                            "https://www.seriouseats.com/"
+                        ],
+                        "post_replies": "3 Replies",
                         "post_likes": "13",
                         "linked_posts": []
                     }

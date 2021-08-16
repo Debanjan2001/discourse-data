@@ -7,22 +7,19 @@ debug = False
 
 if debug:
     driver = webdriver.Chrome()
+    driver.maximize_window()
 else:
     options = Options()
     options.headless = True
     driver = webdriver.Chrome(options=options)
 
-driver.maximize_window()
 
 data = []
 
-
 baseurl = "https://bbs.boingboing.net"
-max_topics = 10
-max_posts = 2
-mywish = [
-    "general","boing"
-]
+max_topics = 5
+max_posts = 5
+mywish = ["general", "boing"]
 
 from boing_topic_crawler import topic_crawler
 
@@ -43,7 +40,6 @@ try:
             continue
 
         print(f"STARTED --- CATEGORY: {category_name}")
-
 
         num_topics = list_item.find_element_by_class_name("topic-count").text[2:]
         category_description = list_item.find_element_by_class_name(
@@ -88,12 +84,14 @@ try:
             driver.switch_to.window(driver.window_handles[2])
 
             try:
-                topic_data = topic_crawler(url=topic_url, driver=driver, max_posts = max_posts )
+                topic_data = topic_crawler(
+                    url=topic_url, driver=driver, max_posts=max_posts
+                )
                 topics_data.append(topic_data)
             except Exception as e:
                 print(e)
                 pass
-                
+
             # Closing new_url tab
             driver.close()
 
