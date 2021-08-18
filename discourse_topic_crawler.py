@@ -22,6 +22,7 @@ def topic_crawler(url: str = None, driver: WebDriver = None, max_posts=5):
             "topic_id": url.split("/")[-1],
             "topic_url": url,
             "topic_author": "",
+            "topic_author_link": "",
             "created_timestamp": metrics[0].get_attribute("title"),
             "replies": metrics[2].text,
             "views": metrics[3].text,
@@ -75,6 +76,17 @@ def topic_crawler(url: str = None, driver: WebDriver = None, max_posts=5):
                     )
                 )
 
+                post_description_links.extend(
+                    list(
+                        set(
+                            [
+                                link.get_attribute("src")
+                                for link in post_body.find_elements_by_tag_name("img")
+                            ]
+                        )
+                    )
+                )
+
                 try:
                     linked_posts = post.find_element_by_class_name(
                         "post-links-container"
@@ -107,6 +119,7 @@ def topic_crawler(url: str = None, driver: WebDriver = None, max_posts=5):
                 continue
 
         topic_data["topic_author"] = posts_data[0]["post_author"]
+        topic_data["topic_author_link"] = posts_data[0]["post_author_link"]
 
         # Popular Links Extraction for A Topic
         popular_links_attached = None
@@ -140,7 +153,8 @@ def topic_crawler(url: str = None, driver: WebDriver = None, max_posts=5):
                         ]
                     )
                 )
-        except:
+        except Exception as e:
+            print(e)
             pass
 
         topic_data["popular_links_attached"] = popular_links_attached_urls
@@ -161,9 +175,8 @@ def topic_crawler(url: str = None, driver: WebDriver = None, max_posts=5):
 
 if __name__ == "__main__":
 
-    baseurl = "https://bbs.boingboing.net/t/fuck-today/67518"
-
     debug = True
+    baseurl = "https://community.drownedinsound.com/t/introductions/57290"
 
     if debug:
         driver = webdriver.Chrome()
@@ -175,7 +188,7 @@ if __name__ == "__main__":
 
     data = topic_crawler(url=baseurl, driver=driver, max_posts=10)
 
-    with open("topic.json", "w") as file:
+    with open("topic_wise_test.json", "w") as file:
         json_obj = json.dumps(data, indent=4)
         file.write(json_obj)
 

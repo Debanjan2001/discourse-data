@@ -1,0 +1,20 @@
+[
+    {
+        "category": {
+            "category_name": "News & Views",
+            "category_description": "",
+            "category_link": "https://commons.commondreams.org/c/News%20&%20Views",
+            "num_topics": "85016"
+        },
+        "topics": []
+    },
+    {
+        "category": {
+            "category_name": "FAQ",
+            "category_description": "Discussion about this site, its organization, how it works, and how we can improve it.",
+            "category_link": "https://commons.commondreams.org/c/FAQ",
+            "num_topics": "2"
+        },
+        "topics": []
+    }
+]
