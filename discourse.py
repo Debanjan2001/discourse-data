@@ -53,6 +53,7 @@ def discourse_crawler(
     """
 
     data = []
+    category_links = {}
 
     try:
         # Go to site
@@ -61,6 +62,33 @@ def discourse_crawler(
         # Category Dropdown
         dropdown = driver.find_element_by_id(f"{header_id}-header")
         dropdown.click()
+
+        """
+            Open a new Tab and store links of all categories
+        """
+        driver.execute_script("window.open('');")
+
+        # Switch to the new window and open new URL
+        driver.switch_to.window(driver.window_handles[1])
+
+        category_url = baseurl + "/categories"
+        driver.get(category_url)
+
+
+        for category in driver.find_elements_by_class_name("category-title-link"):
+            try:
+                category_name = category.text
+                category_link = category.get_attribute("href")
+                category_links[category_name] = category_link
+            except Exception as e:
+                print(e)
+                pass
+            
+        # Close the Tab
+        driver.close()
+
+        # Switch to old tab
+        driver.switch_to.window(driver.window_handles[0])
 
         for list_item in driver.find_element_by_id(
             f"{header_id}-body"
@@ -87,14 +115,18 @@ def discourse_crawler(
             """
 
             # Load the page
-            next_pageurl = baseurl + f"/c/{category_name}"
+            try:
+                next_pageurl = category_links[category_name]
 
-            driver.execute_script("window.open('');")
+                driver.execute_script("window.open('');")
 
-            # Switch to the new window and open new URL
-            driver.switch_to.window(driver.window_handles[1])
+                # Switch to the new window and open new URL
+                driver.switch_to.window(driver.window_handles[1])
 
-            driver.get(next_pageurl)
+                driver.get(next_pageurl)
+            except Exception as e:
+                print(e)
+                continue
 
             category_data = {
                 "category_name": category_name,
@@ -154,11 +186,20 @@ def discourse_crawler(
 
 if __name__ == "__main__":
 
-    debug = True
-    myKey = 2
+    debug = False
+    myKey = 0
 
-    if len(sys.argv)>1:
-        myKey = int(sys.argv[1])
+    for i in range(1,len(sys.argv)):
+        argument = sys.argv[i]
+        if argument == "-d" or argument == "--debug":
+            debug = True 
+        if argument.startswith("site-"):
+            try:
+                key = int(argument.split("-")[-1])
+                if key>=0 and key<=2:
+                    myKey = key
+            except:
+                pass
 
     if debug:
         driver = webdriver.Chrome()
