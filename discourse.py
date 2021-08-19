@@ -145,7 +145,7 @@ def discourse_crawler(
             topics_data = []
             # print(topics)
 
-            for cnt, topic in enumerate(topics, 1):
+            for topic in topics:
 
                 topic_url = topic.get_attribute("href")
                 # print(topic_url)
@@ -189,17 +189,38 @@ if __name__ == "__main__":
     debug = False
     myKey = 0
 
+    max_topics = configuration["max_topics"]
+    max_posts = configuration["max_posts"]
+
     for i in range(1,len(sys.argv)):
         argument = sys.argv[i]
         if argument == "-d" or argument == "--debug":
             debug = True 
-        if argument.startswith("site-"):
+        elif argument.startswith("site-"):
             try:
-                key = int(argument.split("-")[-1])
-                if key>=0 and key<=2:
-                    myKey = key
+                myKey = int(argument.split("-")[-1])
+                if myKey not in configuration.keys():
+                    raise Exception("Key not present")
+            except Exception as e:
+                raise Exception("id provided as Site-{{ id }} not found/invalid. Please check again")
+
+        elif argument.startswith("max_posts="):
+            try:
+                max_posts = int(argument.split("=")[-1])
             except:
-                pass
+                raise Exception("Invalid Integer value for max_posts")
+
+        elif argument.startswith("max_topics="):
+            try:
+                max_topics = int(argument.split("=")[-1])
+            except:
+                raise Exception("Invalid Integer value for max_topics")
+
+
+    baseurl = configuration[myKey]["baseurl"]
+    mywish = configuration[myKey]["wishlist"]
+    header_id = configuration[myKey]["category-header-id"]
+    filename = configuration[myKey]["name"]
 
     if debug:
         driver = webdriver.Chrome()
@@ -209,12 +230,6 @@ if __name__ == "__main__":
         options.headless = True
         driver = webdriver.Chrome(options=options)
 
-    baseurl = configuration[myKey]["baseurl"]
-    mywish = configuration[myKey]["wishlist"]
-    max_topics = configuration["max_topics"]
-    max_posts = configuration["max_posts"]
-    header_id = configuration[myKey]["category-header-id"]
-    filename = configuration[myKey]["name"]
 
     print(baseurl)
 

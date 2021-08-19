@@ -15,6 +15,23 @@ def topic_crawler(url: str = None, driver: WebDriver = None, max_posts=5):
         topic_info = driver.find_element_by_class_name("topic-map")
         metrics = topic_info.find_elements_by_tag_name("span")
 
+        replies = metrics[2].get_attribute("title")
+        if not replies:
+            replies = metrics[2].text
+
+        views = metrics[3].get_attribute("title")
+        if not views:
+            views = metrics[3].text
+
+        users = metrics[4].get_attribute("title")
+        if not users:
+            users = metrics[4].text
+
+        likes = metrics[5].get_attribute("title")
+        if not likes:
+            likes = metrics[5].text
+
+        
         print(f"STARTED --- TOPIC: {topic_name}")
 
         topic_data = {
@@ -24,10 +41,10 @@ def topic_crawler(url: str = None, driver: WebDriver = None, max_posts=5):
             "topic_author": "",
             "topic_author_link": "",
             "created_timestamp": metrics[0].get_attribute("title"),
-            "replies": metrics[2].text,
-            "views": metrics[3].text,
-            "users": metrics[4].text,
-            "likes": metrics[5].text,
+            "replies": replies,
+            "views": views,
+            "users": users,
+            "likes": likes,
         }
 
         """
@@ -175,8 +192,8 @@ def topic_crawler(url: str = None, driver: WebDriver = None, max_posts=5):
 
 if __name__ == "__main__":
 
-    debug = True
-    baseurl = "https://community.drownedinsound.com/t/introductions/57290"
+    debug = False
+    baseurl = "https://commons.commondreams.org/t/unvaccinated-covid-19-patients-strain-alabama-hospitals-amid-warning-of-potentially-apocalyptic-crisis/131222"
 
     if debug:
         driver = webdriver.Chrome()
