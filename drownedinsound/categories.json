@@ -1,0 +1,74 @@
+[
+    {
+        "id": 23,
+        "url": "https://community.drownedinsound.com/c/23",
+        "name": "How to DiS",
+        "slug": "how-to-dis",
+        "topic_count": 9,
+        "post_count": 389,
+        "description": "Come on in and say hello! Browse updates from moderators, learn about DiSisms, and find other \u201cimportant stuff\u201d stored in here. Recommended reading for new users, and oldies should check in every now and again."
+    },
+    {
+        "id": 5,
+        "url": "https://community.drownedinsound.com/c/5",
+        "name": "Music",
+        "slug": "music",
+        "topic_count": 5906,
+        "post_count": 411237,
+        "description": "This is your outpost online to talk with fellow fans about music of any genre or era. Whether you want to discuss the best bands from South Sudan or Southampton, this is the place for you. There are no real rules or restrictions, just be nice to each other."
+    },
+    {
+        "id": 6,
+        "url": "https://community.drownedinsound.com/c/6",
+        "name": "Social",
+        "slug": "social",
+        "topic_count": 23679,
+        "post_count": 1878574,
+        "description": "From sandwiches to fish puns via pub quiz team names, the DiS social boards are an alternative universe filled with irreverent chat about everything and nothing. Dive in."
+    },
+    {
+        "id": 25,
+        "url": "https://community.drownedinsound.com/c/25",
+        "name": "Entertainment!",
+        "slug": "entertainment",
+        "topic_count": 424,
+        "post_count": 163061,
+        "description": "Talk about TV shows or films or books or geek out about gaming or internet culture or board games or general popular &amp; unpopular culture\u2026 Gang of Four fans especially welcome."
+    },
+    {
+        "id": 20,
+        "url": "https://community.drownedinsound.com/c/20",
+        "name": "News & Politics",
+        "slug": "news-politics",
+        "topic_count": 76,
+        "post_count": 44927,
+        "description": "This is the place for civil discussion about what\u2019s happening in the world (and known universe)."
+    },
+    {
+        "id": 24,
+        "url": "https://community.drownedinsound.com/c/24",
+        "name": "Sports",
+        "slug": "sports",
+        "topic_count": 280,
+        "post_count": 200514,
+        "description": "Sports chat of all kinds goes in here."
+    },
+    {
+        "id": 9,
+        "url": "https://community.drownedinsound.com/c/9",
+        "name": "The Classifieds",
+        "slug": "classifieds",
+        "topic_count": 673,
+        "post_count": 2578,
+        "description": "Want to promote your own music? Looking for a band member? Or a room mate? Have a guitar for sale? Need to offload your extra gig ticket because your friend has let you down at the 11th hour? Putting on an event you want people to know about? Want to plug your latest stream or app or blog post? This is the place to do it."
+    },
+    {
+        "id": 3,
+        "url": "https://community.drownedinsound.com/c/3",
+        "name": "Site Feedback",
+        "slug": "site-feedback",
+        "topic_count": 323,
+        "post_count": 3523,
+        "description": "Discussion about this new forums and how we can improve &#x27;em."
+    }
+]

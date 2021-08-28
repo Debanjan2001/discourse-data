@@ -1,0 +1,20 @@
+[
+    {
+        "id": 5,
+        "url": "https://commons.commondreams.org/c/5",
+        "name": "News & Views",
+        "slug": "news-views",
+        "topic_count": 85144,
+        "post_count": 916567,
+        "description": null
+    },
+    {
+        "id": 3,
+        "url": "https://commons.commondreams.org/c/3",
+        "name": "FAQ",
+        "slug": "meta",
+        "topic_count": 2,
+        "post_count": 4,
+        "description": "Discussion about this site, its organization, how it works, and how we can improve it."
+    }
+]

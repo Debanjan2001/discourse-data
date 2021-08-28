@@ -1,0 +1,74 @@
+[
+    {
+        "id": 3,
+        "url": "https://bbs.boingboing.net/c/3",
+        "name": "boing",
+        "slug": "boing",
+        "topic_count": 83355,
+        "post_count": 2114621,
+        "description": "Automatically created BBS discussion topics for Boing Boing posts. Will close after 5 days."
+    },
+    {
+        "id": 4,
+        "url": "https://bbs.boingboing.net/c/4",
+        "name": "general",
+        "slug": "general",
+        "topic_count": 3954,
+        "post_count": 114952,
+        "description": "Topics that don't need a category, or don't fit into any other existing category."
+    },
+    {
+        "id": 1,
+        "url": "https://bbs.boingboing.net/c/1",
+        "name": "meta",
+        "slug": "meta",
+        "topic_count": 792,
+        "post_count": 23491,
+        "description": "Discussion about the Boing Boing BBS itself, its organization and governance, how it works, and how we can improve this forum."
+    },
+    {
+        "id": 9,
+        "url": "https://bbs.boingboing.net/c/9",
+        "name": "games",
+        "slug": "games",
+        "topic_count": 507,
+        "post_count": 112966,
+        "description": "Forum games and similar shenanigans"
+    },
+    {
+        "id": 8,
+        "url": "https://bbs.boingboing.net/c/8",
+        "name": "wrath",
+        "slug": "wrath",
+        "topic_count": 1928,
+        "post_count": 131114,
+        "description": "Politics, religion, and cycling"
+    },
+    {
+        "id": 5,
+        "url": "https://bbs.boingboing.net/c/5",
+        "name": "craft",
+        "slug": "craft",
+        "topic_count": 162,
+        "post_count": 8216,
+        "description": "Things that you made."
+    },
+    {
+        "id": 7,
+        "url": "https://bbs.boingboing.net/c/7",
+        "name": "links",
+        "slug": "links",
+        "topic_count": 589,
+        "post_count": 4353,
+        "description": "Interesting stuff on the web. Not an official submissions queue for BB."
+    },
+    {
+        "id": 6,
+        "url": "https://bbs.boingboing.net/c/6",
+        "name": "Offworld",
+        "slug": "offworld",
+        "topic_count": 20,
+        "post_count": 737,
+        "description": "Nomen luni\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0"
+    }
+]

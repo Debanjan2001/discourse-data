@@ -1,0 +1,595 @@
+[
+    {
+        "category": {
+            "category_name": "Appliance",
+            "category_description": "A place to discuss Ubuntu Appliances.",
+            "link": "https://discourse.ubuntu.com/c/appliance/45"
+        },
+        "topic_posts": [
+            {
+                "topic": {
+                    "topic_title": "About the Appliance category",
+                    "topic_link": "https://discourse.ubuntu.com/t/about-the-appliance-category/16031",
+                    "num_replies": "0",
+                    "views": "863",
+                    "author": "ya-bo-ng",
+                    "timestamp": "June 15, 2020, 10:11am"
+                },
+                "posts": [
+                    {
+                        "post_timestamp": "June 15, 2020, 10:11am",
+                        "post_likes": "1 Like",
+                        "post_author": "ya-bo-ng",
+                        "post_id": 1,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "A place to discuss Ubuntu Appliances.An Ubuntu Appliance is software which is packaged as a snap that runs on top of Ubuntu Core running on supported hardware.If you have a proposal for a new Ubuntu Appliance, create a new topic under Appliances, select the \u2018Proposed New Appliance\u2019 category and fill out the template."
+                    }
+                ]
+            },
+            {
+                "topic": {
+                    "topic_title": "Propose new appliance: pi-hole+squid+Router+FW with Webmin",
+                    "topic_link": "https://discourse.ubuntu.com/t/propose-new-appliance-pi-hole-squid-router-fw-with-webmin/18307",
+                    "num_replies": "3",
+                    "views": "726",
+                    "author": "jomonjoy",
+                    "timestamp": "September 14, 2020,  5:49am"
+                },
+                "posts": [
+                    {
+                        "post_timestamp": "September 14, 2020,  5:49am",
+                        "post_likes": "2 Likes",
+                        "post_author": "jomonjoy",
+                        "post_id": 1,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "A gateway UTM appliance that can be at any home or small office sitting between the LAN & ISP Router.Features:\nWebmin-Web-based system wide configuration tool\npi-home - Network-wide Ad Blocking\nSquid Proxy - Proxy server with ACL in order to grant or restrict Internet access with gui like proxymin or webmin\nRouter+FW-"
+                    },
+                    {
+                        "post_timestamp": "September 14, 2020, 10:18am",
+                        "post_likes": "1 Like",
+                        "post_author": "popey",
+                        "post_id": 2,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "I would love to have an Ubuntu Core router. We have adguard-home already, which does comparable things to pi-hole. Having pi-hole too would be great, I agree. The other parts, web admin tools and network config utilities would really cool too.I think the tricky part is, for a router, you typically want multiple hardware interfaces - usually multiple wired Ethernet ports. Are there good, abundant, reasonable-cost devices we can target with this kind of thing? A raspberry pi with a WiFi dongle could work for small installations, and perhaps that should be the first target?"
+                    },
+                    {
+                        "post_timestamp": "September 29, 2020,  9:25am",
+                        "post_likes": "",
+                        "post_author": "jomonjoy",
+                        "post_id": 3,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Got inspired with this thread (https://www.purplealienplanet.com/node/25 )  need to try\u2026"
+                    },
+                    {
+                        "post_timestamp": "March 9, 2021, 12:12am",
+                        "post_likes": "",
+                        "post_author": "0belix",
+                        "post_id": 4,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [
+                            "https://github.com/gustavoparedes/SohoMiniServer"
+                        ],
+                        "post_description": "Hi, I was just looking at your post, a few months ago I wrote a simple script to automate the installation of firewall, vpn, directory (samba AD) / directory replication and file server, it uses LXD to put the different services on a container, I wrote it to run on a raspberry (3 or 4) but I also run it successfully on KVM, the only thing is in spanish  but it\u2019s only 3 or 4 questions for setup, after that you can configure almost everything using windows rsat and softether manager, so if you want to try it here:It would be easy to put there adguard and squid (of course authenticating against the directory). Also for the raspberry case I put hostapd to make it an AP that authenticates against the directory (using freeradius :))"
+                    }
+                ]
+            },
+            {
+                "topic": {
+                    "topic_title": "Propose new appliance: Homeassistant",
+                    "topic_link": "https://discourse.ubuntu.com/t/propose-new-appliance-homeassistant/17983",
+                    "num_replies": "2",
+                    "views": "462",
+                    "author": "joshuarlowry",
+                    "timestamp": "August 22, 2020,  1:33am"
+                },
+                "posts": [
+                    {
+                        "post_timestamp": "August 22, 2020,  1:33am",
+                        "post_likes": "3 Likes",
+                        "post_author": "joshuarlowry",
+                        "post_id": 1,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "I would like to see Homeassistant become an appliance."
+                    },
+                    {
+                        "post_timestamp": "August 22, 2020,  5:00pm",
+                        "post_likes": "1 Like",
+                        "post_author": "ian-weisser",
+                        "post_id": 2,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "The HA developers currently seem enamored of the Docker path. However their concept of deployment does seem closer to what Snaps and Appliance can offer.I\u2019ve been using HA for a couple years. I\u2019m experimenting with the \u201chome-assistant-snap\u201d snap right now.Looks like at least four different folks have Snappified it since 2018, so there seems a bit of interest."
+                    },
+                    {
+                        "post_timestamp": "December 30, 2020,  1:58pm",
+                        "post_likes": "",
+                        "post_author": "mmartinortiz",
+                        "post_id": 3,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "What could be a good way for us, as users, to promote this appliance? To be honest, I\u2019m also interested in this appliance, but I do not know how I can contribute."
+                    }
+                ]
+            },
+            {
+                "topic": {
+                    "topic_title": "Nextcloud with multipass: is it ready for production?",
+                    "topic_link": "https://discourse.ubuntu.com/t/nextcloud-with-multipass-is-it-ready-for-production/20068",
+                    "num_replies": "2",
+                    "views": "324",
+                    "author": "vmalep",
+                    "timestamp": "December 23, 2020,  9:13am"
+                },
+                "posts": [
+                    {
+                        "post_timestamp": "December 23, 2020,  9:13am",
+                        "post_likes": "",
+                        "post_author": "vmalep",
+                        "post_id": 1,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Hi there,I have tried the Nextcloud server deployed with multipass. The installation is smothless and the server works right away, but then I immediately faced the problem of access from outside the ubuntu host. I tried configuring iptables to reroute the traffic to the VM, but to no avail. I am far to be an expert in virtual machine and I did found some posts related to this (https://askubuntu.com/questions/1263043/cannot-access-an-ubuntu-guest-vm-running-under-multipass-on-an-ubuntu-host-from), but with no practical solution, at least for me.I am therefore wondering if I am missing something. Is it that the multipass solution is not yet ready for real use? Or user like me do need additional tuto in order to manage configuring it properly?Best regards,\nPierre"
+                    },
+                    {
+                        "post_timestamp": "December 26, 2020,  3:19pm",
+                        "post_likes": "2 Likes",
+                        "post_author": "kyrofa",
+                        "post_id": 2,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "It appears that Multipass doesn\u2019t support bridging, but you can try forwarding individual ports from your host to the VM. For the Nextcloud appliance, I suggest forwarding ports 80 and 443."
+                    },
+                    {
+                        "post_timestamp": "December 26, 2020,  3:20pm",
+                        "post_likes": "1 Like",
+                        "post_author": "vmalep",
+                        "post_id": 3,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Thanks. It works indeed.\nBR\nPierre"
+                    }
+                ]
+            },
+            {
+                "topic": {
+                    "topic_title": "Appliance breaking changes",
+                    "topic_link": "https://discourse.ubuntu.com/t/appliance-breaking-changes/19788",
+                    "num_replies": "0",
+                    "views": "132",
+                    "author": "ralight",
+                    "timestamp": "December 10, 2020,  2:28pm"
+                },
+                "posts": [
+                    {
+                        "post_timestamp": "December 10, 2020,  2:28pm",
+                        "post_likes": "",
+                        "post_author": "ralight",
+                        "post_id": 1,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Hi,I publish the Mosquitto snap, which is used as one of the Appliance images. The project recently released version 2.0, which has some behaviour changes that mean updating to it will require config file tweaks for some people before clients will be able to connect again. This should only affect people who haven\u2019t configured security on the broker.I\u2019m keen to push the upgrade in the least disruptive way. At the moment I\u2019ve got the new version solely in the edge channel. I\u2019ve already got a 1.6 track which will stay on 1.6.x (the previous version) so even for new installs people will be able to get that version if they need it for some reason.Along with being able to roll back to a previous version easily, that makes the pain of a broken install at least reduced, but I wondered if you had any thoughts about the best way to handle this.Thanks,Roger"
+                    }
+                ]
+            },
+            {
+                "topic": {
+                    "topic_title": "Adguard Appliance Feedback",
+                    "topic_link": "https://discourse.ubuntu.com/t/adguard-appliance-feedback/19312",
+                    "num_replies": "0",
+                    "views": "199",
+                    "author": "seffyroff",
+                    "timestamp": "November 10, 2020,  9:01pm"
+                },
+                "posts": [
+                    {
+                        "post_timestamp": "November 10, 2020,  9:01pm",
+                        "post_likes": "",
+                        "post_author": "seffyroff",
+                        "post_id": 1,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Hey there,I installed the Adguard appliance today out of interest to see how it performs.  I think there are a number of improvements necessary here:1: The documentation for installing it as a VM uses a simple multipass command.  The problem with this is the resulting VM spins up on an isolated NAT which only the host can access, which is obviously not helpful for a DNS server.  I get that your guide keeps it simple, and Multipass is excellent for this, but the end of the tutorial will leave some frustrated that it\u2019s not working after following the instructions to the letter.2: The guide should be much clearer that Adguard offers a paid service.  As I ventured to their homepage searching for documentation I was immediately concerned that I would be asked for money after having already installed the software.  This is a tone deaf oversight and not in keeping with the values I hold dear from Ubuntu."
+                    }
+                ]
+            },
+            {
+                "topic": {
+                    "topic_title": "Proposed New Appliance: Subsonic Music Server",
+                    "topic_link": "https://discourse.ubuntu.com/t/proposed-new-appliance-subsonic-music-server/17033",
+                    "num_replies": "8",
+                    "views": "577",
+                    "author": "arubislander",
+                    "timestamp": "June 29, 2020,  6:50pm"
+                },
+                "posts": [
+                    {
+                        "post_timestamp": "June 29, 2020,  6:50pm",
+                        "post_likes": "1 Like",
+                        "post_author": "arubislander",
+                        "post_id": 1,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "I am the maintainer of the Subsonic snapThe Subsonic Music Server Appliance would be targeted at home users.There is a snap for Subsonic: https://snapcraft.io/subsonic-arubislander\nOptinally, for easier discoverbility on the local network, the avahi snap could be installed alongside: https://snapcraft.io/avahiSubsonic is a java application that should run on all supported platforms. When used as a server there are no additional hardware requirements. When run as a jukebox, audio out would be a requirement.\nSome form of (external) storage is desirable to hold the media library.Apart from some autoconnected interfaces, the removable-media interface is consumed by the Subsonic snap. This would need to be autoconnected in the appliance.The privacy policy of Subsonic can be found here: http://www.subsonic.org/pages/privacy.jspThe snap is regularly updated to incorporate security patches and updates to the Ubuntu packages the software depends on. Upstream for Subsonic is also monitored regularly."
+                    },
+                    {
+                        "post_timestamp": "June 30, 2020,  9:12am",
+                        "post_likes": "",
+                        "post_author": "popey",
+                        "post_id": 2,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Great idea! Thanks for maintaining your snap of subsonic - especially for keeping it up to date for over two years. Have you spoken to upstream about making an \u2018official\u2019 subsonic (using the real name, rather than the name-spaced one) snap?I think it would be good to re-visit conversations with upstream both on the subject of an official snap - which may well be co-maintained by yourself (?) and an appliance based on it. What do you think?"
+                    },
+                    {
+                        "post_timestamp": "June 30, 2020, 10:42am",
+                        "post_likes": "2 Likes",
+                        "post_author": "arubislander",
+                        "post_id": 3,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Wow, has it been two years already? Wasn\u2019t completely my idea though. The thought did cross my mind when I heard about appliances, but @wimpy provided the final nudge to make this a reality.I wholeheartedly agree. I will attempt to establish contact with upstream again to get the ball rolling\u2026"
+                    },
+                    {
+                        "post_timestamp": "August 14, 2020,  3:43pm",
+                        "post_likes": "",
+                        "post_author": "rhys-davies",
+                        "post_id": 4,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Did you get anywhere talking to the upstream folks perchance?"
+                    },
+                    {
+                        "post_timestamp": "August 14, 2020,  4:08pm",
+                        "post_likes": "",
+                        "post_author": "arubislander",
+                        "post_id": 5,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Unfortunately not. I was just now checking my mailbox to see if I had been replied to.\nIt has been two months, and I unfortunately have had zero reaction.How should I now proceed, do you reckon?"
+                    },
+                    {
+                        "post_timestamp": "August 14, 2020,  5:37pm",
+                        "post_likes": "",
+                        "post_author": "rhys-davies",
+                        "post_id": 6,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Hmm, well definitely fire them another email, I find a lot of folks don\u2019t reply until the second go.But also, I\u2019ll go looking and see if I can\u2019t reach out with a Canonical email and see if they bite too."
+                    },
+                    {
+                        "post_timestamp": "August 17, 2020,  2:57pm",
+                        "post_likes": "",
+                        "post_author": "arubislander",
+                        "post_id": 7,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "This would be more like the third or fourth go by now, but in the interest of having tried to the utmost, I will give it another go."
+                    },
+                    {
+                        "post_timestamp": "October 31, 2020,  4:47pm",
+                        "post_likes": "3 Likes",
+                        "post_author": "arubislander",
+                        "post_id": 8,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "I have despaired of ever getting in contact with the maker of Subsonic. Also since there hasn\u2019t been a new release in quite some time, I wonder if it is even in active development still.I have started snapping Airsonic. When it is ready I will submit a new proposal for an AirSonic appliance."
+                    },
+                    {
+                        "post_timestamp": "October 31, 2020,  7:30pm",
+                        "post_likes": "1 Like",
+                        "post_author": "rhys-davies",
+                        "post_id": 9,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Sounds like a plan   Of course, if you run into issues with the snap let us know, here or on snapcraft.io, and we can help"
+                    }
+                ]
+            },
+            {
+                "topic": {
+                    "topic_title": "Proposed New Appliance: Gitea",
+                    "topic_link": "https://discourse.ubuntu.com/t/proposed-new-appliance-gitea/16307",
+                    "num_replies": "3",
+                    "views": "864",
+                    "author": "Wimpress",
+                    "timestamp": "May 19, 2020,  1:40pm"
+                },
+                "posts": [
+                    {
+                        "post_timestamp": "May 19, 2020,  1:40pm",
+                        "post_likes": "3 Likes",
+                        "post_author": "Wimpress",
+                        "post_id": 1,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Standalone free software, self-hosted github/gitlab-like code hosting and development tool.No additional snaps other than Gitea are required.No additional hardware required. Gitea is built for x86 and ARM and functions as a networked appliance, with a web based administration and development tool. Will work on Pi and NUC, although Pi 4 with 2GB of RAM or more would be best."
+                    },
+                    {
+                        "post_timestamp": "June 25, 2020, 12:37pm",
+                        "post_likes": "",
+                        "post_author": "popey",
+                        "post_id": 2,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "The snap is already in the edge channel but they\u2019ve not pushed any stable builds. I modified their snapcraft yaml and did a PR earlier today. It can now be used to build stable and edge builds, which upstream can manage via the snap store web UI. Once that\u2019s landed we can build a PoC appliance image."
+                    },
+                    {
+                        "post_timestamp": "August 28, 2020,  1:10pm",
+                        "post_likes": "",
+                        "post_author": "diddledan",
+                        "post_id": 3,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "The PR looks to have landed now. @popey start your engines!"
+                    },
+                    {
+                        "post_timestamp": "August 28, 2020,  5:45pm",
+                        "post_likes": "",
+                        "post_author": "ogra",
+                        "post_id": 4,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "please note https://github.com/go-gitea/gitea/issues/12292#issuecomment-673644353snap updates currently fail if you blindly accept the defaults for the gitea config page \u2026"
+                    }
+                ]
+            },
+            {
+                "topic": {
+                    "topic_title": "Proposed New Appliance: Kodi",
+                    "topic_link": "https://discourse.ubuntu.com/t/proposed-new-appliance-kodi/17850",
+                    "num_replies": "3",
+                    "views": "596",
+                    "author": "Dave",
+                    "timestamp": "August 13, 2020, 10:44pm"
+                },
+                "posts": [
+                    {
+                        "post_timestamp": "August 13, 2020, 10:44pm",
+                        "post_likes": "2 Likes",
+                        "post_author": "Dave",
+                        "post_id": 1,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Just interested in having it as it would be nice to move all infrastructure to Ubuntu (I\u2019m currently running OSMC on a Pi. Sidenote: OSMC does not officially support booting from USB/external SSD. Given the speed/reliability improvements, this would be a huge plus if possible as an appliance)Home usersKodi is a free and open source Media Center. There is a mir-kiosk-snap from Alan Griffiths (https://snapcraft.io/mir-kiosk-kodi)\nAs for other snaps I\u2019m not sure.The appliance should work on ARM and x86. Only an external monitor and sound out is needed for normal usage. Support for (USB) remotes would be nice, but is not a requirementNo ideahttps://kodi.tv/kodi-privacy-policyShould use existing maintenance infrastructure as kodi debs are available from Ubuntu."
+                    },
+                    {
+                        "post_timestamp": "August 14, 2020, 11:09am",
+                        "post_likes": "2 Likes",
+                        "post_author": "popey",
+                        "post_id": 2,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "This is a great idea. Kodi is a perfect example of the kind of install-and-forget application you want behind the TV!I will talk to Alan Griffiths, and see what we can do about getting this work upstreamed. Thanks for the suggestion!"
+                    },
+                    {
+                        "post_timestamp": "August 17, 2020,  8:58am",
+                        "post_likes": "1 Like",
+                        "post_author": "alan_g",
+                        "post_id": 3,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Hi,I\u2019m happy to help, but be aware there are still issues to be addressed for ARM systems in general and with the 18.04 i965-va-driver (using base: core20 doesn\u2019t work with my current snapcraft plugins).Here\u2019s the contact I had with upstream: https://forum.kodi.tv/showthread.php?tid=347974Best,\nAlan"
+                    },
+                    {
+                        "post_timestamp": "August 24, 2020,  1:02pm",
+                        "post_likes": "1 Like",
+                        "post_author": "alan_g",
+                        "post_id": 4,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "In the interest of enabling progress, I\u2019ve tried using base: core20 and the Ubuntu archive instead of using a plugin to access the Kodi PPA.The 20.04 archive has the advantage of a working i965-va-driver and builds for arm64 and armhf.It has the big disadvantage of no \u201crepository\u201d for add-ons. (And no i386 build.)The branch is here: https://github.com/MirServer/mir-kiosk-kodi/tree/core20[UPDATE]The lack of \u201crepository\u201d was a transcription error, I\u2019ve fixed that in the branch."
+                    }
+                ]
+            },
+            {
+                "topic": {
+                    "topic_title": "Shinobi - CCTV & NVR",
+                    "topic_link": "https://discourse.ubuntu.com/t/shinobi-cctv-nvr/17011",
+                    "num_replies": "3",
+                    "views": "1894",
+                    "author": "RickAndTired",
+                    "timestamp": "June 27, 2020,  6:52pm"
+                },
+                "posts": [
+                    {
+                        "post_timestamp": "June 27, 2020,  6:52pm",
+                        "post_likes": "1 Like",
+                        "post_author": "RickAndTired",
+                        "post_id": 1,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "https://shinobi.video\nhttps://gitlab.com/Shinobi-Systems/ShinobiNo involvement - I\u2019m just interested in an easy way for myself and others to use ShinobiHome UsersRuns on Ubuntu\nNo Snap of Shinobi\nNo Deb of Shinobi\nRequires Node.js FFmpeg MariaDBRaspberry Pi 4 (maybe earlier) or x86_64\nCamera(s)\nAnother device with a web browser to access camera feeds, video recordings, and settingsDoes your appliance require Secure Boot or full disk encryption?Does your proposed appliance have existing documentation around privacy policy?Would this appliance use existing maintained debs from Ubuntu? Would it use other software which needs maintenance? Is there an upstream or vendor commitment to maintenance of that software?"
+                    },
+                    {
+                        "post_timestamp": "June 29, 2020, 11:00am",
+                        "post_likes": "1 Like",
+                        "post_author": "popey",
+                        "post_id": 2,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "This is a super interesting application I\u2019d never seen before. Thanks for bringing it to our attention. I\u2019ll personally contact the upstream developers, with a view to making a prototype snap of it. As you\u2019ve already identified, it seems to use a bunch of components we already ship in Ubuntu, or which can be trivially snapped. So fingers crossed this shouldn\u2019t be too tricky to snap up.I\u2019ll post my progress here for yourself and others to follow, and we can reach out to the upstream to propose your appliance idea. Thanks again!"
+                    },
+                    {
+                        "post_timestamp": "June 30, 2020,  7:13am",
+                        "post_likes": "1 Like",
+                        "post_author": "sabdfl",
+                        "post_id": 3,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "This looks super interesting. Is there any support for motion and person detection?"
+                    },
+                    {
+                        "post_timestamp": "June 30, 2020,  3:15pm",
+                        "post_likes": "",
+                        "post_author": "RickAndTired",
+                        "post_id": 4,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "There is motion detection with region support and it works well from my testing.\nThere is also an object detection plugin, though I haven\u2019t tried it."
+                    }
+                ]
+            },
+            {
+                "topic": {
+                    "topic_title": "Document Camera Client",
+                    "topic_link": "https://discourse.ubuntu.com/t/document-camera-client/16997",
+                    "num_replies": "3",
+                    "views": "635",
+                    "author": "atomicthomas2000",
+                    "timestamp": "June 26, 2020,  8:31pm"
+                },
+                "posts": [
+                    {
+                        "post_timestamp": "June 26, 2020,  8:31pm",
+                        "post_likes": "",
+                        "post_author": "atomicthomas2000",
+                        "post_id": 1,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Please use this template to propose making a new Ubuntu Appliance. Post your topic here with the tag #pna.I am a teacher struggling to connect with my students.  I\u2019ve been teaching for 20 years.  Distance learning is very tricky.  I need to see what my students are working on.  If a student is making a mistake, I\u2019d like to be able to correct it in real time.  For example, a student working on math problems might have the wrong algorithm.  If I can intercede quickly, I can correct the student\u2019s algorithm while they work.  Being able to have a document camera client would allow me to build raspberry pi  document cameras for my students cheaply and quickly.Is this an appliance for a project you lead or contribute to? Are you expressing interest in having this appliance, or in contributing to it?\nI\u2019d like to build cheap document cameras for all my students.  This client would go in to the raspberry pie running things.Is this an appliance for home users? Makers? Software engineers? Who would you like to reach with this appliance?\nThis client will be put in student document cameras allowing for a quick wifi connection and ease of use.Does the software for this appliance already run on Linux? On Ubuntu? Is there a snap yet? Is the software open source? Does your proposed new appliance require the use of any other snaps or software that you are not the maintainer of? e.g mir-kiosk or Microk8s.What hardware should your proposed new appliance work on? Are there any accessory requirements (cameras, actuators, relays, GPIO?) Does your proposed new appliance need anything extra or specific to work? e.g an external monitor, a dev kit, extra parts, etc.It would be nice to have the raspberry pi and be headless and plug and play.Does your appliance require Secure Boot or full disk encryption?Does your proposed appliance have existing documentation around privacy policy?Would this appliance use existing maintained debs from Ubuntu? Would it use other software which needs maintenance? Is there an upstream or vendor commitment to maintenance of that software?"
+                    },
+                    {
+                        "post_timestamp": "June 29, 2020, 11:23am",
+                        "post_likes": "",
+                        "post_author": "igorljubuncic",
+                        "post_id": 2,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Hello @atomicthomas2000, thanks for proposing this.Is there an existing code base, like a GitHub repo we could look at, to see what the software stack would consist of? We can then suggest the best way forward, including any special considerations for building the snaps and what may be necessary for devices like Raspberry Pi."
+                    },
+                    {
+                        "post_timestamp": "June 29, 2020,  8:32pm",
+                        "post_likes": "",
+                        "post_author": "atomicthomas2000",
+                        "post_id": 3,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "I don\u2019t have a GitHub repo.\nI designed a 3D printable document camera that can slip on to a whiteboard.  I currently have a pi camera and a raspberry pi 3 (This is what I had on hand).I plan on putting a pi zero with a pi camera.  I can set up everything via terminal, but I\u2019d like a snap that could drop in to the pi and have it ready to go.I\u2019d like a snap that can pop in to a pi zero that turns it into a headless USB that folks can plug into their laptop.I don\u2019t have any code."
+                    },
+                    {
+                        "post_timestamp": "June 29, 2020,  9:34pm",
+                        "post_likes": "1 Like",
+                        "post_author": "ijohnson",
+                        "post_id": 4,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Note that Ubuntu Core does not support the Raspberry Pi Zero (or the Zero W), as those devices are armv6, and we only support armv7+.That doesn\u2019t mean that your project could not be done with the Raspberry Pi 3, but I\u2019m not sure what kind of support there exists for USB gadget on the Raspberry Pi 3, because from the sounds of it you want folks to plug the Raspberry Pi directly into their machine and have it show up as like a webcam basically, correct? To make that work you need USB \u201cOn the go\u201d gadget support, which I don\u2019t think the 3 has[1], but the A, A+, and the 4[2] all do.[1] https://raspberrypi.stackexchange.com/a/73911\n[2] with the 4 you will need to ensure the firmware is up-to-date which is not something that we have ever done with Ubuntu Core on the raspberry pi, so that would probably require some work to figure out how to do firmware updates for the Raspberry Pi on Ubuntu Core, but it\u2019s not impossible since it can be done from Ubuntu classic AIUI\u2026"
+                    }
+                ]
+            },
+            {
+                "topic": {
+                    "topic_title": "Proposed New Appliance: DNS Firewall",
+                    "topic_link": "https://discourse.ubuntu.com/t/proposed-new-appliance-dns-firewall/16882",
+                    "num_replies": "3",
+                    "views": "804",
+                    "author": "francis-turner",
+                    "timestamp": "June 20, 2020,  6:46am"
+                },
+                "posts": [
+                    {
+                        "post_timestamp": "June 20, 2020,  6:46am",
+                        "post_likes": "3 Likes",
+                        "post_author": "francis-turner",
+                        "post_id": 1,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "I\u2019d like to create an appliance that runs a bind and works as a DNS Firewall, taking an RPZ policy from one of the various RPZ providers, such as the company I work for - ThreatSTOP. This would be similar to the AdGuard product but would protect against Malware and the like instead of/as well as Ads.This is something that I know how to build in that I work for ThreatSTOP which offers this product on regular Ubuntu servers. We have a Raspbian image and a Ubuntu ISO / VM that do this, and have developed docker images though they haven\u2019t been released, so it\u2019s just a question of understanding how to build an Ubuntu Appliance instead of a .ova or Raspbian imageDNS Firewalls in this sort of appliance form are particularly useful for SOHO and SMB work environments where they can offer the same protection that large organizations offer inside their large corporate networks using the same technology. With the current work from home trend it is becoming more and more important to extend the capabilities to homes and small offices. However there are plenty of benefits for home users too, as a DNS FW can protect unwary internet users, such as children, from downloading software they shouldn\u2019t or connecting to phishing sites and so on.As noted above we know how to build this in other environments. It is effectively a collection of standard ubuntu packages plus a small amount of configuration. The most complicated part is probably giving the appliance a fixed IP address at boot. We have this covered for Raspbian based off of work I have published at my gitbub page (see profile) and I assume there are similar methods available for Ubuntu AppliancesThere are no special hardware requirements (beyond a network connection). Lower spec Raspberry Pis cannot run bind with very large RPZ policies and larger networks will benefit from a Pi4 or NUC for performance but a SOHO network version (say 10-25 laptops/smarthphones etc.) works fine on a Pi2 or Pi3 as that is what I use personally.There are no particular security requirementsSince a DNS Firewall downloads a policy from the supplier and applies to locally to name resolution it is inherently a privacy improver. If (and this would be desired but optional) a user has a ThreatSTOP account and wishes to see reports on blocked traffic then the logs of the blocked traffic would be uploaded to ThreatSTOP for analysis. Such logs would be subject to the ThreatSTOP privacy policy termsThe software uses completely standard ubuntu packages. The changes involve editing the configuration of those packages. Currently those changes are implemented using either shell scripts or scripts in other standard linux languages such as perl."
+                    },
+                    {
+                        "post_timestamp": "June 25, 2020, 11:52am",
+                        "post_likes": "",
+                        "post_author": "popey",
+                        "post_id": 2,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Sounds great. The first part is to bundle the components into a snap. Once you\u2019ve got a snap built, and published in the store, it\u2019s possible to very easily create an appliance image for testing.We have docs, tutorials and a forum focused on building snaps. I\u2019d also be happy to help you get bootstrapped either here or via whatever chat / phone / video system you prefer."
+                    },
+                    {
+                        "post_timestamp": "June 26, 2020,  8:02am",
+                        "post_likes": "",
+                        "post_author": "francis-turner",
+                        "post_id": 3,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Cool. Reading the docs etc. now. This seems not too different from other build environments.I imagine I can get going and build an initial bind9 snap without too many problems. If that works we\u2019ll go for the more complex one with a few config file edits"
+                    },
+                    {
+                        "post_timestamp": "June 26, 2020,  8:33am",
+                        "post_likes": "1 Like",
+                        "post_author": "popey",
+                        "post_id": 4,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Sounds like a plan. Just shout if you get stuck. We\u2019ve made hundreds of snaps over the years. I expect we can sort any issues out if we smash a few brain cells together."
+                    }
+                ]
+            },
+            {
+                "topic": {
+                    "topic_title": "Proposed New Appliance: Mosquitto",
+                    "topic_link": "https://discourse.ubuntu.com/t/proposed-new-appliance-mosquitto/16308",
+                    "num_replies": "1",
+                    "views": "820",
+                    "author": "popey",
+                    "timestamp": "May 19, 2020,  1:54pm"
+                },
+                "posts": [
+                    {
+                        "post_timestamp": "May 19, 2020,  1:54pm",
+                        "post_likes": "3 Likes",
+                        "post_author": "popey",
+                        "post_id": 1,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Standalone free software, self-hosted message broker.Mosquitto is built for x86 and arm and functions as a networked message broker.The appliance requires only the interfaces which are already connected for normal operation.Existing documentation exists at http://www.eclipse.org/legal/privacy.php for the privacy policy.I am not the primary developer of the snap, however I have contacted the upstream development team, and will work with them to build this appliance."
+                    },
+                    {
+                        "post_timestamp": "June 25, 2020, 12:24pm",
+                        "post_likes": "1 Like",
+                        "post_author": "Wimpress",
+                        "post_id": 2,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "The Mosquitto is available"
+                    }
+                ]
+            },
+            {
+                "topic": {
+                    "topic_title": "Proposed New Appliance: Krellian Kiosk",
+                    "topic_link": "https://discourse.ubuntu.com/t/proposed-new-appliance-krellian-kiosk/16869",
+                    "num_replies": "1",
+                    "views": "602",
+                    "author": "benfrancis",
+                    "timestamp": "June 19, 2020,  2:42pm"
+                },
+                "posts": [
+                    {
+                        "post_timestamp": "June 19, 2020,  2:42pm",
+                        "post_likes": "3 Likes",
+                        "post_author": "benfrancis",
+                        "post_id": 1,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "I am the Founder of Krellian Ltd. and lead developer of Krellian Kiosk, a web runtime for interactive kiosks and digital signage. I would like to contribute to turning it into an Ubuntu Appliance.Krellian Kiosk is primarily aimed at businesses in sectors like retail, hospitality, tourism and shared offices where they have a need for interactive kiosks or digital signage (e.g. digital billboards, self-service kiosks, departure boards, information boards, interactive exhibits, wayfinding kiosks and digital menus). However, as a general purpose kiosk web runtime for displaying passive or interactive web content it has a range of applications for business and home use where a single web application needs to be displayed full screen (e.g. for smart home control or rendering slide decks at conferences).Krellian Kiosk is an Electron and Node.js-based application which already runs on Linux and has a work-in-progress snap package for Ubuntu Core using mir-kiosk. Krellian Kiosk is licensed under GPLv3.The appliance is initially targeting the Raspberry Pi 3, but I would like it to run on a range of industrial PCs and touch-based hardware in the future. The appliance requires an HD TV or monitor and an Ethernet or Wi-Fi network connection and can optionally support input devices like a touchscreen or mouse and keyboard.The appliance could benefit from secure boot or full disk encryption but does not require them.Krellian Kiosk acts as a local web server so that it can be remotely controlled via the Web of Things and a self-hosted web interface. Access will be authenticated via a password/JSON Web Token, but local access will only be able to use plain HTTP due to inherent limitations TLS on local networks. Krellian Kiosk can therefore optionally be used in conjunction with Krellian Console which will be a hosted service providing secure remote access via a TLS dynamic tunneled reverse proxy.Krellian Kiosk does not currently collect any private user data. In future it may use anonymous pings for usage analytics and optionally collect some private user data for the purposes of signing up to the Krellian Console service. Krellian\u2019s general Privacy Policy can be found here.Apart from the maintenance of the Krellian Kiosk snap itself, the appliance would depend on upstream software including Electron (maintained by GitHub) and mir-kiosk (maintained by Canonical).I\u2019d be grateful for any help from Canonical or the Ubuntu community in getting this appliance up and running."
+                    },
+                    {
+                        "post_timestamp": "June 25, 2020, 12:20pm",
+                        "post_likes": "1 Like",
+                        "post_author": "igorljubuncic",
+                        "post_id": 2,
+                        "reply_to_post_id": "NULL",
+                        "links_attached_to_post": [],
+                        "post_description": "Hey Ben, thank you very much for the detailed information!We definitely want to see the Krellian appliance up and running.As we\u2019ve spoken in our meeting, if you want to start a forum thread on some of the problems you have encountered (specifically the browser sandboxing and if there\u2019s a need for any non-default interfaces auto-connections), we can get other folk involved, and we can continue via email if you like.Also, we can discuss anything regarding licensing you want to use, as well as potential future commercial leads and professional services."
+                    }
+                ]
+            }
+        ]
+    }
+]
