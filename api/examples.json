@@ -1,0 +1,14 @@
+[
+    { 
+        "url" : "https://commons.commondreams.org/t/131345.json",
+        "site_slug" : "https://www.commondreams.org"
+    },
+    { 
+        "url" : "https://bbs.boingboing.net/t/203375.json",
+        "site_slug" : "https://boingboing.net"
+    },
+    { 
+        "url" : "https://community.drownedinsound.com/t/55183.json",
+        "site_slug" : "https://drownedinsound.com"
+    }
+]

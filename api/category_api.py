@@ -9,30 +9,30 @@ from topic_api import topic_extractor
 #     "directory_name" : "boingboing",
 #     "baseurl" : "https://bbs.boingboing.net",
 #     "mywish" : ["boing","general"],
-#     "slug": "boingboing.net",
-# }
-
-# configuration = {
-#     "directory_name" : "drownedinsound",
-#     "baseurl" : "https://community.drownedinsound.com",
-#     "mywish" : ["Music","How to Dis"],
-#     "slug": "drownedinsound.com",
+#     "slug": "https://boingboing.net",
 # }
 
 configuration = {
-    "directory_name" : "commondreams",
-    "baseurl" : "https://commons.commondreams.org",
-    "mywish" : ["FAQ","News & Views"],
-    "slug": "commondreams.org",
+    "directory_name" : "drownedinsound",
+    "baseurl" : "https://community.drownedinsound.com",
+    "mywish" : ["Music","Social"],
+    "slug": "https://drownedinsound.com",
 }
+
+# configuration = {
+#     "directory_name" : "commondreams",
+#     "baseurl" : "https://commons.commondreams.org",
+#     "mywish" : ["FAQ","News & Views"],
+#     "slug": "https://www.commondreams.org",
+# }
 
 print(":::::::::::::::::::::::::::")
 print(configuration["baseurl"])
 print(":::::::::::::::::::::::::::\n")
 
 
-max_topics = 30
-max_posts = 4000
+max_topics = 200
+max_posts = 1
 
 filepath = configuration["directory_name"] + "/" + "data.json" 
 os.makedirs(os.path.dirname(filepath), exist_ok=True)
@@ -97,7 +97,7 @@ try:
                             topic_url = configuration["baseurl"] + f"/t/{topic['id']}.json"
                             print(f"::> Starting Topic :{topic['title'][:50]}...")
                             try:
-                                single_topic = topic_extractor(url = topic_url,max_posts=max_posts,site_slug=configuration["slug"])
+                                single_topic = topic_extractor(url = topic_url,max_posts=max_posts,blog_site_slug=configuration["slug"])
                                 topics_data.append(
                                     single_topic
                                 )  

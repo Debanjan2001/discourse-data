@@ -1,14 +1,17 @@
+from blog_crawler import blog_crawler
 import requests
 from bs4 import BeautifulSoup
 import math
 import json
 
+
+
 image_extensions = set(["jpeg","jpg","webp","png","svg","gif","bmp"])
 
-def structure_post(post,site_url,site_slug):
+def structure_post(post,site_url,blog_site_slug,first_post = False):
 
     baseurl = site_url.rsplit("/",2)[0]
-
+    # print(first_post)
     try:
         html_element = post["cooked"]
         soup = BeautifulSoup(html_element, "html.parser")
@@ -34,12 +37,14 @@ def structure_post(post,site_url,site_slug):
                             "clicks":link.get("clicks","null"),
                         })
 
-                elif site_slug in link["url"]:
+                elif blog_site_slug in link["url"]:
+
                     connected_links.append({
                         "title":link.get("title",""),
                         "url":link.get("url","null"),
                         "type":"blog",
                         "clicks":link.get("clicks","null"),
+                        "description": (blog_crawler(url = link.get("url"),blog_site_slug=blog_site_slug) if first_post else "Ignored")
                     })
             except:
                 pass
@@ -70,7 +75,7 @@ def structure_post(post,site_url,site_slug):
         raise(e)
 
 
-def topic_extractor(url="",max_posts=20,site_slug = ""):
+def topic_extractor(url="",max_posts=20,blog_site_slug = ""):
 
     data = {
         "topic_details":{},
@@ -110,9 +115,9 @@ def topic_extractor(url="",max_posts=20,site_slug = ""):
         posts_per_page = topic["chunk_size"]
         pages = math.ceil( min(topic_details["posts_count"],max_posts) / posts_per_page )
 
-        for post in topic["post_stream"]["posts"]:
+        for cnt,post in enumerate(topic["post_stream"]["posts"]):
             try:
-                post_data = structure_post(post = post, site_url = site_url, site_slug = site_slug)
+                post_data = structure_post(post = post, site_url = site_url, blog_site_slug = blog_site_slug,first_post = (cnt == 0))
                 data["posts"].append(post_data)
             except Exception as e:
                 print(e)
@@ -136,7 +141,7 @@ def topic_extractor(url="",max_posts=20,site_slug = ""):
 
             for post in topic["post_stream"]["posts"]:
                 try:
-                    post_data = structure_post(post=post,site_url=site_url,site_slug=site_slug)
+                    post_data = structure_post(post=post,site_url=site_url,blog_site_slug=blog_site_slug)
                     data["posts"].append(post_data)
                 except Exception as e:
                     print(e)
@@ -152,18 +157,15 @@ def topic_extractor(url="",max_posts=20,site_slug = ""):
 
 if __name__ == "__main__":
 
-    url = "https://commons.commondreams.org/t/131345.json"
-    site_slug = "https://www.commondreams.org"
+    url = "https://commons.commondreams.org/t/critics-warn-biden-that-30-methane-reduction-by-2030-not-good-enough/131897.json"
+    blog_site_slug = "https://www.commondreams.org"
 
     file = open("topic-api.json","w")
     try:
-        topic_data = topic_extractor(url= url,max_posts=20,site_slug=site_slug)
-
+        topic_data = topic_extractor(url= url,max_posts=20,blog_site_slug=blog_site_slug)
         file.write(
             json.dumps(topic_data,indent = 4)
         )
-
-    
         file.close()
 
     except Exception as e:

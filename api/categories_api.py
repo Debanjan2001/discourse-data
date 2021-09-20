@@ -9,16 +9,16 @@ import json
 # }
 
 
-# configuration = {
-#     "directory_name" : "drownedinsound",
-#     "baseurl" : "https://community.drownedinsound.com",
-# }
-
-
 configuration = {
-    "directory_name" : "commondreams",
-    "baseurl" : "https://commons.commondreams.org",
+    "directory_name" : "drownedinsound",
+    "baseurl" : "https://community.drownedinsound.com",
 }
+
+
+# configuration = {
+#     "directory_name" : "commondreams",
+#     "baseurl" : "https://commons.commondreams.org",
+# }
 
 
 
